@@ -151,9 +151,9 @@ function OurApp () {
 function Footer (){
     return(
         <footer>
-            <span>Gentlemen's Crib</span>
-            <span>Back to Top</span>
-            <span>Visit Crib</span>
+            <span id="crib">Gentlemen's Crib</span>
+            <span id="backtotop">Back to Top</span>
+            <span id="visit">Visit Crib</span>
         </footer>
     );
 }

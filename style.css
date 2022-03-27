@@ -386,6 +386,423 @@ footer {
     font-size: 20px;
 }
 
-footer span {
-    margin: auto;
+#crib {
+    position: absolute;
+    left: 50px;
+}
+
+#backtotop {
+    position: absolute;
+    left: calc(50% - 59px);
+}
+
+#visit {
+    position: absolute;
+    right: 50px;
+}
+
+
+@media (max-width: 1200px) {
+    body {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        font-family: 'Montserrat';
+    }
+    
+    #root {
+        width: 100vw;
+        overflow: hidden;
+    }
+    /* Standardized Components */
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+    
+    .Cards {
+        position: absolute;
+        width: 240px;
+        height: 200px;
+        background: #C4C4C4;
+        border: 1.5px solid #000000;
+        box-sizing: border-box;
+        border-radius: 30px;
+        padding: 52px 20px 52px 20px;
+    }
+    
+    .Cards p {
+        width: 200px;
+    }
+    
+    h1 {
+        font-size: 50px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    h2 {
+        font-weight: normal;
+        margin: 0;
+        position: absolute;
+        font-size: 40px;
+    }
+    
+    
+    
+    .Button {
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        background: #E5E5E5;
+        border: 1.5px solid #000000;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    nav {
+        position: absolute;
+        width: calc(100% - 100px);
+        height: 100px;
+        left: 50px;
+        margin: 0;
+        z-index: 2;
+    }
+    
+    nav img {
+        position: absolute;
+        left: 0;
+        height: 100px;
+        width: auto;
+    }
+    
+    nav ul {
+        position: absolute;
+        top: 38px;
+        right: 211.5px;
+        list-style: none;
+        display: flex;
+        width: 685px;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    nav ul li {
+        margin: auto;
+    }
+    
+    nav .Button {
+        top: 30px;
+        padding-top: 8px;
+        right: 0;
+    }
+    
+    .Button span {
+        position: absolute;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    /* For Men */
+    .ForMen {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 700px;
+        background: #C4C4C4;
+    }
+    
+    .ForMen h1 {
+        position: absolute;
+        top: 250px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    p {
+        margin: 0;
+    }
+    
+    .ForMen p {
+        position: absolute;
+        top: 331.5px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .ForMen .Button {
+        padding-top: 18px;
+        top: 405px;
+        width: 200px;
+        height: 60px;
+        left: calc(50% - 100px);
+    }
+    
+    
+    
+    
+    /* Simple */
+    .Simple {
+        position: absolute;
+        top: 700px;
+        width: 100%;
+        height: 873px;
+    }
+    
+    #info {
+        position: absolute;
+        top: 209px;
+        left: 50px;
+    }
+    
+    #stores {
+        position: absolute;
+        top: 314px;
+        left: 342px;
+    }
+    
+    #middle {
+        position: absolute;
+        top: 209px;
+        left: calc(50% - 120px);
+    }
+    
+    #connect {
+        position: absolute;
+        top: 314px;
+        left: 918px;
+    }
+    
+    #auto {
+        position: absolute;
+        top: 209px;
+        left: 1202px;
+    }
+    
+    .Simple h2 {
+        left: 50px;
+        top: 60px;
+    }
+    
+    .Simple .Button {
+        top: 664px;
+        padding-top: 18px;
+        width: 200px;
+        height: 60px;
+        left: calc(50% - 100px);
+    }
+    
+    
+    
+    
+    
+    
+    /* Dressed */
+    .Dressed {
+        position: absolute;
+        top: 1573px;
+        width: 100%;
+        height: 700px;
+        background: #E5E5E5;
+    }
+    
+    .Dressed h2 {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+    }
+    
+    .Dressed p {
+        position: absolute;
+        left: 50px;
+        top: 120px;
+        width: calc(100% - 100px);
+    }
+    
+    .Slider {
+        position: absolute;
+        top: 204px;
+        left: 50px;
+        width: 1390px;
+        height: 698px;
+    }
+    
+    #back {
+        position: absolute;
+        left: 50px;
+        width: calc(100% - 50px);
+        height: calc(100% - 50px);
+        background: #E5E5E5;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    
+    #front {
+        position: absolute;
+        top: 50px;
+        width: calc(100% - 50px);
+        height: calc(100% - 50px);
+        background: #C4C4C4;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    
+    .Dressed .Button {
+        top: 962px;
+        padding-top: 18px;
+        width: 200px;
+        height: 60px;
+        left: calc(50% - 100px);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Socials */
+    #Socials {
+        position: absolute;
+        top: 2795px;
+        width: 100%;
+        height: 300px;
+    }
+    
+    #Socials h2 {
+        left: 50px;
+    }
+    
+    .Spread {
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        display: flex;
+    }
+    
+    .TalkButton {
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        background: #C4C4C4;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    
+    
+    
+    
+    
+    /* Our App */
+    .OurApp {
+        position: absolute;
+        top: 3300px;
+        width: 100%;
+        height: 700px;
+        background: url('./images/Group\ 22.png');
+    }
+    
+    .OurApp h1 {
+        position: absolute;
+        top: 243px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .OurApp p {
+        position: absolute;
+        top: 324px;
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    #DataForm {
+        position: absolute;
+        top: 398px;
+        left: calc(50% - 225px);
+        width: 450px;
+        height: 60px;
+    }
+    
+    #DataForm #tel {
+        font-family: 'Montserrat';
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        margin: 0;
+        padding: 0;
+        background: none;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 5px 0px 0px 5px;
+        font-size: 20px;
+        padding-left: 27px;
+    }
+    
+    #DataForm #submit {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        height: 100%;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        background: #E5E5E5;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 0px 5px 5px 0px;
+    }
+    
+    
+    
+    
+    
+    /* Footer */
+    footer {
+        display: flex;
+        position: absolute;
+        top: 3950px;
+        width: 100%;
+        height: 37px;
+        background: #232323;
+        color: white;
+        padding-top: 13px;
+        font-size: 20px;
+    }
+    
+    #crib {
+        position: absolute;
+        left: 50px;
+    }
+    
+    #backtotop {
+        position: absolute;
+        left: calc(50% - 59px);
+    }
+    
+    #visit {
+        position: absolute;
+        right: 50px;
+    }
 }
