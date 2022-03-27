@@ -6,10 +6,18 @@ body {
     font-family: 'Montserrat';
 }
 
+#root {
+    width: 100vw;
+    overflow: hidden;
+}
 /* Standardized Components */
 a {
     text-decoration: none;
     color: inherit;
+}
+
+p {
+    font-size: 20px;
 }
 
 .Cards {
@@ -20,7 +28,6 @@ a {
     border: 1.5px solid #000000;
     box-sizing: border-box;
     border-radius: 30px;
-    font-size: 20px;
     padding: 52px 20px 52px 20px;
 }
 
@@ -192,4 +199,63 @@ p {
     width: 200px;
     height: 60px;
     left: calc(50% - 100px);
+}
+
+
+
+
+
+
+/* Dressed */
+.Dressed {
+    position: absolute;
+    top: 1573px;
+    width: 100%;
+    height: 700px;
+    background: #E5E5E5;
+}
+
+.Dressed h2 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.Dressed p {
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    width: calc(100% - 100px);
+}
+
+.Slider {
+    position: absolute;
+    top: 204px;
+    left: 50px;
+    width: 1390px;
+    height: 698px;
+}
+
+#back {
+    position: absolute;
+    left: 50px;
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    background: #E5E5E5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#front {
+    position: absolute;
+    top: 50px;
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 20px;
 }

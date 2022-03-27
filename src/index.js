@@ -11,6 +11,14 @@ function Cards (props) {
     );
 }
 
+function Slider (props) {
+    return (
+        <div className="Slider">
+            <div id="back"></div>
+            <div id="front"></div>
+        </div>
+    );
+}
 
 // Sections
 function Header (){
@@ -81,7 +89,15 @@ function Simple () {
 }
 
 function Dressed() {
+    return(
+        <section className="Dressed">
+            <h2>Get dressed for your events</h2>
+            <p>We offer affordable and almost free online and in-person support for you to look good during the 
+                most important moments in your life.</p>
 
+            <Slider></Slider>
+        </section>
+        );
 }
 
 function Socials() {
@@ -93,6 +109,7 @@ function Home (){
             <Header/>
             <ForMen />
             <Simple />
+            <Dressed />
         </body>
     )
 }
