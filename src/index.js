@@ -47,13 +47,11 @@ function Retract () {
 }
 // Sections
 function Header (){
-    const [open, setOpen] = useState(false);
-
     return(
         <nav id="navbar">
             <img id="desktop" src="../images/Logo T.png" alt="logo"/>
             <img id="mobile" src="../images/Icon T.png" alt="logo" />
-            <img id="menu" onClick={() => setOpen(!open)} src="../images/Menu.svg" alt="logo"/>
+            <img id="menu" onClick={Drop} src="../images/Menu.svg" alt="logo"/>
             {open && Drop}
             <ul>
                 <li><a href="https://blog.gentlemenscrib.com">For You</a></li>
