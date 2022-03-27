@@ -36,13 +36,25 @@ function DataForm (props) {
     )
 }
 
+// Interactions
+function Drop () {
+    navbar.style.height = "500px";
+    menu.onClick={Retract};
+}
 
-
+function Retract () {
+    navbar.style.height = "50px";
+}
 // Sections
 function Header (){
+    const [open, setOpen] = useState(false);
+
     return(
-        <nav>
-            <img src="../images/Logo T.png" alt="logo"/>
+        <nav id="navbar">
+            <img id="desktop" src="../images/Logo T.png" alt="logo"/>
+            <img id="mobile" src="../images/Icon T.png" alt="logo" />
+            <img id="menu" onClick={() => setOpen(!open)} src="../images/Menu.svg" alt="logo"/>
+            {open && Drop}
             <ul>
                 <li><a href="https://blog.gentlemenscrib.com">For You</a></li>
                 <li>For Celebs</li>
@@ -127,11 +139,11 @@ function Socials (){
         <section id="Socials">
             <h2>We like to talk a lot on social media about fashion</h2>
             <div className="Spread">
-                <TalkButton></TalkButton>
-                <TalkButton></TalkButton>
-                <TalkButton></TalkButton>
-                <TalkButton></TalkButton>
-                <TalkButton></TalkButton>
+                <div id="insta"><TalkButton></TalkButton></div>
+                <div id="facebook"><TalkButton></TalkButton></div>
+                <div id="twitter"><TalkButton></TalkButton></div>
+                <div id="whatsapp"><TalkButton></TalkButton></div>
+                <div id="linkedin"><TalkButton></TalkButton></div>
             </div>
         </section>
     );
