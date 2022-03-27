@@ -82,7 +82,7 @@ function Simple () {
                 </Cards>
             </div>
             <Button>
-                <span>Get Started</span>
+                <span>Let's Go</span>
             </Button>
         </section>
     );
@@ -96,12 +96,20 @@ function Dressed() {
                 most important moments in your life.</p>
 
             <Slider></Slider>
+
+            <Button>
+                <span>I need this</span>
+            </Button>
         </section>
         );
 }
 
 function Socials() {
-
+    return (
+        <section className="Socials">
+            <h2>We like to talk a lot on social media about fashion</h2>
+        </section>
+    );
 }
 function Home (){
     return(
@@ -110,8 +118,9 @@ function Home (){
             <ForMen />
             <Simple />
             <Dressed />
+            <Socials />
         </body>
-    )
+    );
 }
 
 ReactDOM.render(<Home />, document.getElementById("root"));

@@ -259,3 +259,31 @@ p {
     box-sizing: border-box;
     border-radius: 20px;
 }
+
+.Dressed .Button {
+    top: 962px;
+    padding-top: 18px;
+    width: 200px;
+    height: 60px;
+    left: calc(50% - 100px);
+}
+
+
+
+
+
+
+
+
+/* Socials */
+.Socials {
+    position: absolute;
+    top: 2795px;
+    width: 100%;
+    height: 300px;
+    background: #E5E5E5;
+}
+
+.Socials h2 {
+    left: 50px;
+}
