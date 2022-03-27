@@ -93,6 +93,7 @@ nav ul {
 
 nav ul li {
     margin: auto;
+    cursor: pointer;
 }
 
 nav .Button {
@@ -194,7 +195,7 @@ p {
 }
 
 .Simple .Button {
-    top: 664px;
+    top: 644px;
     padding-top: 18px;
     width: 200px;
     height: 60px;
@@ -232,7 +233,7 @@ p {
     position: absolute;
     top: 204px;
     left: 50px;
-    width: 1390px;
+    width: calc(100% - 100px);
     height: 698px;
 }
 
@@ -402,7 +403,7 @@ footer {
 }
 
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     body {
         width: 100vw;
         margin: 0;
@@ -422,13 +423,13 @@ footer {
     }
     
     p {
-        font-size: 20px;
+        font-size: 16px;
     }
     
     .Cards {
         position: absolute;
-        width: 240px;
-        height: 200px;
+        width: 200px;
+        height: 180px;
         background: #C4C4C4;
         border: 1.5px solid #000000;
         box-sizing: border-box;
@@ -437,7 +438,7 @@ footer {
     }
     
     .Cards p {
-        width: 200px;
+        width: 140px;
     }
     
     h1 {
@@ -450,15 +451,15 @@ footer {
         font-weight: normal;
         margin: 0;
         position: absolute;
-        font-size: 40px;
+        font-size: 35px;
     }
     
     
     
     .Button {
         position: absolute;
-        width: 150px;
-        height: 40px;
+        width: 120px;
+        height: 35px;
         background: #E5E5E5;
         border: 1.5px solid #000000;
         box-sizing: border-box;
@@ -471,7 +472,7 @@ footer {
     nav {
         position: absolute;
         width: calc(100% - 100px);
-        height: 100px;
+        height: 80px;
         left: 50px;
         margin: 0;
         z-index: 2;
@@ -480,28 +481,29 @@ footer {
     nav img {
         position: absolute;
         left: 0;
-        height: 100px;
+        height: 80px;
         width: auto;
     }
     
     nav ul {
         position: absolute;
-        top: 38px;
-        right: 211.5px;
+        top: 30px;
+        right: 160px;
         list-style: none;
         display: flex;
-        width: 685px;
+        width: 563px;
         margin: 0;
         padding: 0;
-        font-size: 20px;
+        font-size: 16px;
     }
     
     nav ul li {
         margin: auto;
+        cursor: pointer;
     }
     
     nav .Button {
-        top: 30px;
+        top: 22px;
         padding-top: 8px;
         right: 0;
     }
@@ -509,7 +511,7 @@ footer {
     .Button span {
         position: absolute;
         width: 100%;
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
     
@@ -572,25 +574,25 @@ footer {
     #stores {
         position: absolute;
         top: 314px;
-        left: 342px;
+        left: 270px;
     }
     
     #middle {
         position: absolute;
         top: 209px;
-        left: calc(50% - 120px);
+        left: calc(50% - 90px);
     }
     
     #connect {
         position: absolute;
         top: 314px;
-        left: 918px;
+        left: 730px;
     }
     
     #auto {
         position: absolute;
         top: 209px;
-        left: 1202px;
+        left: 960px;
     }
     
     .Simple h2 {
@@ -599,7 +601,7 @@ footer {
     }
     
     .Simple .Button {
-        top: 664px;
+        top: 644px;
         padding-top: 18px;
         width: 200px;
         height: 60px;
@@ -637,7 +639,7 @@ footer {
         position: absolute;
         top: 204px;
         left: 50px;
-        width: 1390px;
+        width: calc(100% - 80px);
         height: 698px;
     }
     
@@ -701,8 +703,8 @@ footer {
     
     .TalkButton {
         margin: auto;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         background: #C4C4C4;
         border: 1px solid #000000;
         box-sizing: border-box;
