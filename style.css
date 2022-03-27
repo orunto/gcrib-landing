@@ -331,6 +331,48 @@ p {
     text-align: center;
 
 }
+
+#DataForm {
+    position: absolute;
+    top: 398px;
+    left: calc(50% - 225px);
+    width: 450px;
+    height: 60px;
+}
+
+#DataForm #tel {
+    font-family: 'Montserrat';
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 20px;
+    padding-left: 27px;
+}
+
+#DataForm #submit {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    height: 100%;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+
+
+
 /* Footer */
 footer {
     display: flex;

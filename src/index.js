@@ -25,6 +25,19 @@ function TalkButton (props) {
         <div className="TalkButton"></div>
     )
 }
+
+
+function DataForm (props) {
+    return (
+        <form id="DataForm">
+            <input type="tel" id="tel" placeholder="000-000-000-0000"></input>
+            <input id="submit" value="Phone Number" type="submit"></input>
+        </form>
+    )
+}
+
+
+
 // Sections
 function Header (){
     return(
@@ -129,6 +142,7 @@ function OurApp () {
         <section className="OurApp">
             <h1>Our App is Coming</h1>
             <p>Would you like us to notify you when it is ready?</p>
+            <DataForm></DataForm>
         </section>
 
     );
