@@ -124,6 +124,26 @@ function Socials (){
     );
 }
 
+function OurApp () {
+    return (
+        <section className="OurApp">
+            <h1>Our App is Coming</h1>
+            <p>Would you like us to notify you when it is ready?</p>
+        </section>
+
+    );
+}
+
+function Footer (){
+    return(
+        <footer>
+            <span>Gentlemen's Crib</span>
+            <span>Back to Top</span>
+            <span>Visit Crib</span>
+        </footer>
+    );
+}
+
 function Home (){
     return(
         <body>
@@ -132,6 +152,8 @@ function Home (){
             <Simple />
             <Dressed />
             <Socials />
+            <OurApp />
+            <Footer />
         </body>
     );
 }
