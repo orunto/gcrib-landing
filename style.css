@@ -403,7 +403,7 @@ footer {
 }
 
 
-@media (min-width: 1200px) {
+@media (max-width: 1399px) and (min-width: 1200px) {
     body {
         width: 100vw;
         margin: 0;
