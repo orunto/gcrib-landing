@@ -20,6 +20,12 @@ a {
     border: 1.5px solid #000000;
     box-sizing: border-box;
     border-radius: 30px;
+    font-size: 20px;
+    padding: 52px 20px 52px 20px;
+}
+
+.Cards p {
+    width: 200px;
 }
 
 h1 {
