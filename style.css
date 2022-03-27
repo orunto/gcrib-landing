@@ -22,6 +22,19 @@ a {
     border-radius: 30px;
 }
 
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 0;
+    position: absolute;
+    font-size: 40px;
+}
+
 
 
 .Button {
@@ -39,7 +52,7 @@ a {
 
 nav {
     position: absolute;
-    width: calc(100% - 110px);
+    width: calc(100% - 100px);
     height: 100px;
     left: 50px;
     margin: 0;
@@ -95,12 +108,6 @@ nav .Button {
     background: #C4C4C4;
 }
 
-h1 {
-    font-size: 50px;
-    font-weight: normal;
-    margin: 0;
-}
-
 .ForMen h1 {
     position: absolute;
     top: 250px;
@@ -140,5 +147,43 @@ p {
 
 #info {
     position: absolute;
+    top: 209px;
     left: 50px;
+}
+
+#stores {
+    position: absolute;
+    top: 314px;
+    left: 342px;
+}
+
+#middle {
+    position: absolute;
+    top: 209px;
+    left: calc(50% - 120px);
+}
+
+#connect {
+    position: absolute;
+    top: 314px;
+    left: 918px;
+}
+
+#auto {
+    position: absolute;
+    top: 209px;
+    left: 1202px;
+}
+
+.Simple h2 {
+    left: 50px;
+    top: 60px;
+}
+
+.Simple .Button {
+    top: 664px;
+    padding-top: 18px;
+    width: 200px;
+    height: 60px;
+    left: calc(50% - 100px);
 }

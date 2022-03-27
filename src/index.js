@@ -47,9 +47,18 @@ function ForMen() {
 function Simple () {
     return (
         <section className="Simple">
-            <Cards id="info"></Cards>
+            <h2>Fashion should not be difficult and we make it even simpler</h2>
+            <div id="info"><Cards></Cards></div>
+            <div id="stores"><Cards></Cards></div>
+            <div id="middle"><Cards></Cards></div>
+            <div id="connect"><Cards></Cards></div>
+            <div id="auto"><Cards></Cards></div>
+
+            <Button>
+                <span>Get Started</span>
+            </Button>
         </section>
-    )
+    );
 }
 
 function Dressed() {
