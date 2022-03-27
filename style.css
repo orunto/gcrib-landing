@@ -276,14 +276,30 @@ p {
 
 
 /* Socials */
-.Socials {
+#Socials {
     position: absolute;
     top: 2795px;
     width: 100%;
     height: 300px;
-    background: #E5E5E5;
 }
 
-.Socials h2 {
+#Socials h2 {
     left: 50px;
+}
+
+.Spread {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.TalkButton {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
 }

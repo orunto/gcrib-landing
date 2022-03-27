@@ -20,6 +20,11 @@ function Slider (props) {
     );
 }
 
+function TalkButton (props) {
+    return (
+        <div className="TalkButton"></div>
+    )
+}
 // Sections
 function Header (){
     return(
@@ -104,13 +109,21 @@ function Dressed() {
         );
 }
 
-function Socials() {
+function Socials (){
     return (
-        <section className="Socials">
+        <section id="Socials">
             <h2>We like to talk a lot on social media about fashion</h2>
+            <div className="Spread">
+                <TalkButton></TalkButton>
+                <TalkButton></TalkButton>
+                <TalkButton></TalkButton>
+                <TalkButton></TalkButton>
+                <TalkButton></TalkButton>
+            </div>
         </section>
     );
 }
+
 function Home (){
     return(
         <body>
