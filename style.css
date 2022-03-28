@@ -94,7 +94,7 @@ nav {
 nav img {
     position: absolute;
     left: 0;
-    height: 50px;
+    height: 100px;
     width: auto;
 }
 
@@ -312,6 +312,10 @@ p {
     top: 100px;
     width: 100%;
     display: flex;
+}
+
+.Spread div {
+    margin: auto;
 }
 
 .TalkButton {
