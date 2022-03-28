@@ -36,6 +36,7 @@ function DataForm (props) {
     )
 }
 
+
 // Interactions
 
 function Drop () {
@@ -73,6 +74,8 @@ function Header (){
 function ForMen() {
     return(
         <section className="ForMen">
+            <div id="here"></div> 
+            {/* This is where the back to top button refers to */}
             <h1>Fashion for Men</h1>
             <p>Everything you need to feel good</p>
 
@@ -165,7 +168,7 @@ function Footer (){
     return(
         <footer>
             <span id="crib">Gentlemen's Crib</span>
-            <a href="#navbar"><span id="backtotop">Back to Top</span></a>
+            <a href="#here"><span id="backtotop">Back to Top</span></a>
             <span id="visit">Visit Crib</span>
         </footer>
     );
