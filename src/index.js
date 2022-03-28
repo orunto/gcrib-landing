@@ -37,22 +37,25 @@ function DataForm (props) {
 }
 
 // Interactions
+
 function Drop () {
     navbar.style.height = "500px";
-    menu.onClick={Retract};
+    menu1.style.display = "none";
 }
 
 function Retract () {
     navbar.style.height = "50px";
+    menu1.style.display = "block";
 }
+
 // Sections
 function Header (){
     return(
         <nav id="navbar">
             <img id="desktop" src="../images/Logo T.png" alt="logo"/>
             <img id="mobile" src="../images/Icon T.png" alt="logo" />
-            <img id="menu" onClick={Drop} src="../images/Menu.svg" alt="logo"/>
-            {open && Drop}
+            <img className="menu" id="menu1" onClick={Drop} src="../images/Menu.svg" alt="logo"/>
+            <img className="menu" id="menu2" onClick={Retract} src="../images/Menu.svg" alt="logo"/>
             <ul>
                 <li><a href="https://blog.gentlemenscrib.com">For You</a></li>
                 <li>For Celebs</li>

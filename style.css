@@ -80,8 +80,12 @@ nav {
     display: none;
 }
 
-#menu {
+.menu {
     display: none;
+}
+
+#menu1 {
+    z-index: 3;
 }
 
 nav img {
@@ -838,7 +842,7 @@ footer span {
 
 @media (max-width: 1030px) {
     body {
-        width: 100vw;
+        width: 100%;
         margin: 0;
         padding: 0;
         scroll-behavior: smooth;
@@ -925,7 +929,7 @@ footer span {
     }    
     
     
-    #menu {
+    .menu {
         display: block;
         position: absolute;
         left: 322px;
@@ -1232,7 +1236,7 @@ footer span {
         position: absolute;
         top: 340px;
         left: 25px;
-        width: calc(100% -50px);
+        width: calc(100% - 50px);
         height: 60px;
     }
     
