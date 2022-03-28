@@ -5,9 +5,12 @@ body {
     scroll-behavior: smooth;
     font-family: 'Montserrat';
 }
-
+* {
+    scroll-behavior: smooth;
+}
 #root {
     width: 100vw;
+    scroll-behavior: smooth;
     overflow: hidden;
 }
 /* Standardized Components */
@@ -1245,7 +1248,7 @@ footer span {
         height: 100%;
         margin: 0;
         padding: 0;
-        width: 188px;
+        width: 180px;
         margin: 0;
         padding: 0;
         background: none;

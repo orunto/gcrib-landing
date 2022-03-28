@@ -165,7 +165,7 @@ function Footer (){
     return(
         <footer>
             <span id="crib">Gentlemen's Crib</span>
-            <span id="backtotop">Back to Top</span>
+            <a href="#navbar"><span id="backtotop">Back to Top</span></a>
             <span id="visit">Visit Crib</span>
         </footer>
     );
