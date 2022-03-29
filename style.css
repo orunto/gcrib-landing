@@ -463,12 +463,18 @@ p {
     width: 200px;
     margin: 0;
     padding: 0;
-    background: #E5E5E5;
+    background: #E28F1D;
+    color: #FFF;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 0px 5px 5px 0px;
+    transition: 0.5s;
+    cursor: pointer;
 }
-
+#DataForm #submit:hover {
+    border: none;
+    box-shadow: 10px 10px 10px rgba(226, 143, 29, 0.25);
+}
 
 
 
@@ -884,12 +890,18 @@ footer span {
         width: 200px;
         margin: 0;
         padding: 0;
-        background: #E5E5E5;
+        background: #E28F1D;
+        color: #FFF;
         border: 1px solid #000000;
         box-sizing: border-box;
         border-radius: 0px 5px 5px 0px;
+        transition: 0.5s;
+        cursor: pointer;
     }
-    
+    #DataForm #submit:hover {
+        border: none;
+        box-shadow: 10px 10px 10px rgba(226, 143, 29, 0.25);
+    }
     
     
     
@@ -1359,10 +1371,18 @@ footer span {
         width: 145px;
         margin: 0;
         padding: 0;
-        background: #E5E5E5;
+        background: #E28F1D;
+        color: #FFF;
         border: 1px solid #000000;
         box-sizing: border-box;
         border-radius: 0px 5px 5px 0px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    #DataForm #submit:hover {
+        border: none;
+        box-shadow: 10px 10px 10px rgba(226, 143, 29, 0.25);
     }
     
     
