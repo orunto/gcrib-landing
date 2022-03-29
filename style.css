@@ -582,10 +582,11 @@ footer span {
     
     nav {
         position: fixed;
-        background: #FFF;
-        width: calc(100% - 100px);
+        background: #232323;
+        color: #FFF;
+        width: 100%;
         height: 80px;
-        left: 50px;
+        left: 0;
         margin: 0;
         z-index: 2;
     }
@@ -600,7 +601,7 @@ footer span {
     
     nav img {
         position: absolute;
-        left: 0;
+        left: 40px;
         height: 80px;
         width: auto;
     }
@@ -608,7 +609,7 @@ footer span {
     nav ul {
         position: absolute;
         top: 30px;
-        right: 160px;
+        right: 200px;
         list-style: none;
         display: flex;
         width: 563px;
@@ -625,7 +626,7 @@ footer span {
     nav .Button {
         top: 22px;
         padding-top: 8px;
-        right: 0;
+        right: 40px;
     }
     
     .Button span {
@@ -645,7 +646,7 @@ footer span {
         left: 0;
         width: 100%;
         height: 700px;
-        background: #C4C4C4;
+        background: url('./images/ForMen.png');
     }
     
     .ForMen h1 {
@@ -664,6 +665,8 @@ footer span {
         top: 331.5px;
         width: 100%;
         text-align: center;
+        color: #000;
+        font-weight: bold;
     }
     
     .ForMen .Button {
