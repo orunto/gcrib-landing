@@ -64,6 +64,7 @@ h2 {
     width: 150px;
     height: 40px;
     background: #E28F1D;
+    color: white;
     border: 1.5px solid #000000;
     box-sizing: border-box;
     padding: 0;
@@ -74,10 +75,11 @@ h2 {
 
 nav {
     position: fixed;
-    width: calc(100% - 100px);
-    background: #C4C4C4;
+    width: 100%;
+    background: #232323;
+    color: #FFF;
     height: 100px;
-    left: 50px;
+    left: 0;
     margin: 0;
     z-index: 2;
 }
@@ -100,7 +102,7 @@ nav {
 
 nav img {
     position: absolute;
-    left: 0;
+    left: 25px;
     height: 100px;
     width: auto;
 }
@@ -108,7 +110,7 @@ nav img {
 nav ul {
     position: absolute;
     top: 38px;
-    right: 211.5px;
+    right: 261.5px;
     list-style: none;
     display: flex;
     width: 685px;
@@ -125,7 +127,7 @@ nav ul li {
 nav .Button {
     top: 30px;
     padding-top: 8px;
-    right: 0;
+    right: 50px;
 }
 
 .Button span {
@@ -145,13 +147,15 @@ nav .Button {
     left: 0;
     width: 100%;
     height: 700px;
-    background: #C4C4C4;
+    background: url('./images/ForMen.png');
+    background-size: cover;
 }
 
 .ForMen h1 {
     position: absolute;
     top: 250px;
     width: 100%;
+    color: #FFF;
     text-align: center;
 }
 
@@ -505,7 +509,7 @@ footer span {
     
     nav {
         position: fixed;
-        background: #C4C4C4;
+        background: #FFF;
         width: calc(100% - 100px);
         height: 80px;
         left: 50px;
