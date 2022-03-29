@@ -201,6 +201,7 @@ p {
 }
 
 .Cards:hover {
+    border: none;
     box-shadow: 10px 10px 10px rgba(40, 96, 134, 0.25);
 }
 #info {
