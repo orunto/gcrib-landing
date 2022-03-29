@@ -22,7 +22,9 @@ function Slider (props) {
 
 function TalkButton (props) {
     return (
-        <div className="TalkButton"></div>
+        <div className="TalkButton">
+            {props.children}
+        </div>
     )
 }
 
@@ -147,11 +149,11 @@ function Socials (){
         <section id="Socials">
             <h2>We like to talk a lot on social media about fashion</h2>
             <div className="Spread">
-                <div id="insta"><TalkButton></TalkButton></div>
-                <div id="facebook"><TalkButton></TalkButton></div>
-                <div id="twitter"><TalkButton></TalkButton></div>
-                <div id="whatsapp"><TalkButton></TalkButton></div>
-                <div id="linkedin"><TalkButton></TalkButton></div>
+                <div id="insta"><TalkButton><img src="./images/Instagram.svg"/></TalkButton></div>
+                <div id="facebook"><TalkButton><img src="./images/Facebook.svg"/></TalkButton></div>
+                <div id="twitter"><TalkButton><img src="./images/Twitter.svg"/></TalkButton></div>
+                <div id="whatsapp"><TalkButton><img src="./images/Whatsapp.svg"/></TalkButton></div>
+                <div id="linkedin"><TalkButton><img src="./images/LinkedIn.svg"/></TalkButton></div>
             </div>
         </section>
     );
