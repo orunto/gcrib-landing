@@ -1090,7 +1090,8 @@ footer span {
         left: 0;
         width: 100%;
         height: 500px;
-        background: #C4C4C4;
+        background: url('./images/ForMen.png');
+        background-position: center;
     }
     
     .ForMen h1 {
@@ -1108,6 +1109,8 @@ footer span {
         position: absolute;
         top: 256px;
         width: 100%;
+        font-weight: 500;
+        color: #FFF;
         text-align: center;
     }
     
@@ -1346,7 +1349,7 @@ footer span {
     #DataForm {
         position: absolute;
         top: 340px;
-        left: 25px;
+        left: calc(50% - 160px);
         width: calc(100% - 50px);
         height: 60px;
     }
@@ -1356,22 +1359,22 @@ footer span {
         height: 100%;
         margin: 0;
         padding: 0;
-        width: 180px;
+        width: 170px;
         margin: 0;
         padding: 0;
         background: none;
         border: 1px solid #000000;
         box-sizing: border-box;
         border-radius: 5px 0px 0px 5px;
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 15px;
     }
     
     #DataForm #submit {
         font-family: 'Montserrat';
-        font-size: 16px;
+        font-size: 14px;
         height: 100%;
-        width: 145px;
+        width: 140px;
         margin: 0;
         padding: 0;
         background: #E28F1D;
