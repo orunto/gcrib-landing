@@ -31,7 +31,7 @@ function TalkButton (props) {
 
 function DataForm (props) {
     return (
-        <form id="DataForm">
+        <form id="DataForm" action="https://submit-form.com/KSHU6qfv">
             <input type="tel" id="tel" placeholder="000-000-000-0000"></input>
             <input id="submit" value="Phone Number" type="submit"></input>
         </form>
@@ -64,14 +64,14 @@ function Header (){
             <img className="menu" id="menu1" onClick={Drop} src="../images/Menu.svg" alt="logo"/>
             <img className="menu" id="menu2" onClick={Retract} src="../images/Menu.svg" alt="logo"/>
             <ul>
-                <li><a href="https://blog.gentlemenscrib.com">For You</a></li>
+                <li>For You</li>
                 <li>For Celebs</li>
                 <li>For Companies</li>
                 <li>Partners</li>
             </ul>
 
             <Button>
-                <span>Visit Crib</span>
+                <span><a href="https://blog.gentlemenscrib.com">Visit Crib</a></span>
             </Button>
         </nav>
     );
