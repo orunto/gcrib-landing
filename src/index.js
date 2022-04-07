@@ -14,8 +14,8 @@ function Cards (props) {
 function Slider (props) {
     return (
         <div className="Slider">
-            <img src={images[j]} id="back"></img>
-            <img src={images[i]} id="front"></img>
+            <img src="./images/image2.png" id="back"></img>
+            <img src="./images/image1.png" id="front"></img>
         </div>
     );
 }
@@ -50,58 +50,6 @@ function Retract () {
     navbar.style.height = "50px";
     menu1.style.display = "block";
 }
-
-    var i = 0;
-    var j = 1;
-    var images = [];
-    var time = 3000;
-    var front = document.getElementById("front");
-    var back = document.getElementById("back");
-
-    images[0] = './images/image1.png';
-    images[1] = './images/image2.png';
-    images[2] = './images/image3.png';
-    images[3] = './images/image4.png';
-    images[4] = './images/image5.png';
-    images[5] = './images/image6.png';
-
-    function Swapper () {
-        front.src = images[i];
-        back.src = images[j]
-        
-        if (1 < images.length - 1) {
-            i++;
-        }
-
-        else {
-            i = 0;
-        }
-
-        setTimeout("Swapper()", time);
-    }
-
-    window.onload = Swapper;
-    // images[0] = './images/image1.jpg';
-    // images[1] = 'image2.jpg';
-    // images[2] = 'image3.jpg';
-    // images[3] = 'image4.jpg';
-    // images[4] = 'image5.jpg';
-    // images[5] = 'image6.jpg';
-
-    // function Swapper2 () {
-    //     frontimg.src = images[i];
-    //     backimg.src = images[j]
-        
-    //     if (1 < images.length - 1) {
-    //         i++;
-    //     }
-
-    //     else {
-    //         i = 0;
-    //     }
-
-    //     setTimeout("Swapper2()", time);
-    // }
 
 // Sections
 function Header (){
@@ -230,7 +178,7 @@ function Footer (){
 
 function Home (){
     return(
-        <body onload={Swapper}>
+        <body>
             <Header/>
             <ForMen />
             <Simple />
