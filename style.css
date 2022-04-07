@@ -33,8 +33,9 @@ p {
     position: absolute;
     width: 240px;
     height: 200px;
-    background: #C4C4C4;
-    border: 1.5px solid #000000;
+    background: white;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 10px rgba(40, 96, 134, 0.25);
     box-sizing: border-box;
     border-radius: 30px;
     transition: 0.3s;
@@ -201,7 +202,7 @@ p {
 }
 
 .Cards:hover {
-    border: none;
+    border: 1px solid #000000;
     box-shadow: 10px 10px 10px rgba(40, 96, 134, 0.25);
 }
 #info {

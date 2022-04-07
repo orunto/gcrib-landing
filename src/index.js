@@ -51,10 +51,6 @@ function Retract () {
     menu1.style.display = "block";
 }
 
-function FixIt () {
-    console.log("worked");
-}
-
 // Sections
 function Header (){
     return(
@@ -182,7 +178,7 @@ function Footer (){
 
 function Home (){
     return(
-        <body onScroll={FixIt}>
+        <body>
             <Header/>
             <ForMen />
             <Simple />
