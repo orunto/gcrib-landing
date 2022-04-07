@@ -288,7 +288,7 @@ p {
     left: 50px;
     width: calc(100% - 50px);
     height: calc(100% - 50px);
-    background: #E5E5E5;
+
     border: 1px solid #000000;
     box-sizing: border-box;
     box-sizing: border-box;
@@ -300,7 +300,8 @@ p {
     top: 50px;
     width: calc(100% - 50px);
     height: calc(100% - 50px);
-    background: #C4C4C4;
+    
+    background-size: contain;
     border: 1px solid #000000;
     box-sizing: border-box;
     box-sizing: border-box;
@@ -773,7 +774,7 @@ footer span {
         left: 50px;
         width: calc(100% - 50px);
         height: calc(100% - 50px);
-        background: #E5E5E5;
+    
         border: 1px solid #000000;
         box-sizing: border-box;
         box-sizing: border-box;
@@ -785,7 +786,8 @@ footer span {
         top: 50px;
         width: calc(100% - 50px);
         height: calc(100% - 50px);
-        background: #C4C4C4;
+        
+        background-size: contain;
         border: 1px solid #000000;
         box-sizing: border-box;
         box-sizing: border-box;
@@ -1221,7 +1223,7 @@ footer span {
         left: 25px;
         width: calc(100% - 25px);
         height: calc(100% - 25px);
-        background: #E5E5E5;
+    
         border: 1px solid #000000;
         box-sizing: border-box;
         box-sizing: border-box;
@@ -1233,7 +1235,8 @@ footer span {
         top: 25px;
         width: calc(100% - 25px);
         height: calc(100% - 25px);
-        background: #C4C4C4;
+        
+        background-size: contain;
         border: 1px solid #000000;
         box-sizing: border-box;
         box-sizing: border-box;
