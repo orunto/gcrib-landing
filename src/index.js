@@ -55,20 +55,8 @@ function Retract () {
 function Header (){
     return(
         <nav id="navbar">
-            <img id="desktop" src="../images/Logo T.png" alt="logo"/>
-            <img id="mobile" src="../images/Icon T.png" alt="logo" />
-            <img className="menu" id="menu1" onClick={Drop} src="../images/Menu.svg" alt="logo"/>
-            <img className="menu" id="menu2" onClick={Retract} src="../images/Menu.svg" alt="logo"/>
-            <ul>
-                <li>For You</li>
-                <li>For Celebs</li>
-                <li>For Companies</li>
-                <li>Partners</li>
-            </ul>
-
-            <Button>
-                <span><a href="https://blog.gentlemenscrib.com">Visit Crib</a></span>
-            </Button>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo.png" id="logo"></img>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Icon.png" id="logo2"></img>
         </nav>
     );
 }
@@ -76,14 +64,11 @@ function Header (){
 function ForMen() {
     return(
         <section className="ForMen">
-            <div id="here"></div> 
-            {/* This is where the back to top button refers to */}
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/dapper.png" id="chef"></img>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/dapper.png" id="chef2"></img>
             <h1>Fashion for Men</h1>
-            <p>Everything you need to feel good</p>
+            <p>Everything you need to look good</p>
 
-            <Button>
-                <span>Get Started</span>
-            </Button>
         </section>
     )
 }
@@ -182,10 +167,10 @@ function Home (){
             <Header/>
             <ForMen />
             <Simple />
-            <Dressed />
+            {/* <Dressed />
             <Socials />
             <OurApp />
-            <Footer />
+            <Footer /> */}
         </body>
     );
 }
