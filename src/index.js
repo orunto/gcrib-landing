@@ -76,7 +76,8 @@ function ForMen() {
 function Simple () {
     return (
         <section className="Simple">
-            <h2>Fashion should not be difficult and we make it even simpler</h2>
+            <h2>Fashion should not be difficult</h2>
+            <p className="simpler">...and we make it even simpler</p>
             <div id="info">
                 <Cards>
                     <p>Find the information you need, answers to any questions</p>
@@ -115,9 +116,6 @@ function Dressed() {
             <h2>Get dressed for your events</h2>
             <p>We offer affordable and almost free online and in-person support for you to look good during the 
                 most important moments in your life.</p>
-
-            <Slider></Slider>
-
             <Button>
                 <span>I need this</span>
             </Button>
@@ -167,9 +165,9 @@ function Home (){
             <Header/>
             <ForMen />
             <Simple />
-            {/* <Dressed />
+            <Dressed />
             <Socials />
-            <OurApp />
+            {/* <OurApp />
             <Footer /> */}
         </body>
     );

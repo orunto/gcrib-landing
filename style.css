@@ -2,11 +2,19 @@ body {
     padding: 0;
     margin: 0;
 }
+
+h2 {
+    
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Rische';
+    font-weight: bold;
+}
 .ForMen {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 800px;
     background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Top Section.png');
     background-size: 100%;
@@ -53,7 +61,7 @@ h1 {
     color: #286086;
 }
 
-p {
+.ForMen p {
     position: absolute;
     top: 435px;
     left: calc(50vw - 250px);
@@ -91,7 +99,138 @@ p a {
 .Simple {
     position: absolute;
     top: 900px;
+    left: 50px;
+    width: calc(100vw - 100px);
+    
 }
+
+.Simple h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.simpler {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Sora';
+    font-weight: 200;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.Cards {
+    width: 264px;
+    font-family: "Sora";
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+}
+
+.Cards img {
+    top: 0;
+}
+
+.Cards p {
+    margin: 0;
+}
+
+#info {
+    position: absolute;
+    top: 190px;
+    left: 0;
+}
+
+#stores {
+    position: absolute;
+    top: 292px;
+    left: calc(25% - 112px);
+}
+
+#middle {
+    position: absolute;
+    top: 190px;
+    left: calc(50% - 132px);
+}
+
+#connect {
+    position: absolute;
+    top: 292px;
+    right: calc(25% - 112px);
+}
+
+#auto {
+    position: absolute;
+    top: 190px;
+    right: 0;
+}
+
+.Button {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #E28F1D;
+}
+
+.Simple .Button {
+    position: absolute;
+    top: 480px;
+    left: calc(50% - 51px);
+}
+
+
+.Dressed {
+    position: absolute;
+    top: 1490px;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/image6.jpg');
+    background-size: 100%;
+}
+
+.Dressed h2 {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    color: #fff;
+}
+
+.Dressed p {
+    position: absolute;
+    top: 185px;
+    left: 50px;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Sora';
+    font-weight: 200;
+    width: 832px;
+    color: #fff;
+}
+
+.Dressed .Button {
+    position: absolute;
+    top: 268px;
+    left: 50px;
+}
+
+#Socials {
+    position: absolute;
+    top: 2200px;
+    left: 0;
+    width: 100%;
+}
+
+#Socials h2 {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 100%;
+    text-align: right;
+}
+
 
 @media (max-width: 1200px) {
     /* .ForMen{
@@ -160,7 +299,7 @@ p a {
         color: #286086;
     }
 
-    p {
+    .ForMen p {
         position: absolute;
         top: 450px;
         left: 25px;
