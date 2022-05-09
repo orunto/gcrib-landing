@@ -319,6 +319,65 @@ p a {
     background: #28D146;
     box-shadow: 4px 4px 10px rgba(40, 209, 70, 0.4);
 }
+
+.OurApp {
+    position: absolute;
+    top: 3000px;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/Group\ 22.png");
+    background-size: 100%;
+}
+
+.OurApp h1 {
+    color: #fff;
+}
+
+.OurApp p {
+    position: absolute;
+    top: 376px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 20px;
+    color: #fff;
+}
+
+#DataForm {
+    position: absolute;
+    top: 450px;
+    left: calc(50% - 240px);
+    width: 480px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+#tel {
+    font-family: 'Montserrat';
+    background: transparent;
+    width: 225px;
+    height: 60px;
+    font-size: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+#submit {
+    font-family: 'Montserrat';
+    background: #E28F1D;
+    width: 225px;
+    height: 65px;
+    font-size: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+    right: 0;
+}
 @media (max-width: 1200px) {
     .ForMen{
         background-size: 130%;

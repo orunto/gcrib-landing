@@ -190,8 +190,8 @@ function Home (){
             <Simple />
             <Dressed />
             <Socials />
-            {/* <OurApp />
-            <Footer /> */}
+            <OurApp />
+            {/* <Footer /> */}
         </body>
     );
 }
