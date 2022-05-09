@@ -231,17 +231,76 @@ p a {
     text-align: right;
 }
 
+.TalkButton {
+    width: 264px;
+    height: 264px;
+    border-radius: 40px;
+}
 
+#insta {
+    position: absolute;
+    top: 240px;
+    left: 50px;
+}
+
+#insta div {
+    background: #E1306C;
+    box-shadow: 4px 4px 10px rgba(225, 48, 108, 0.4);
+}
+
+#twitter {
+    position: absolute;
+    top: 373px;
+    left: calc(25% - 40px);
+}
+
+#twitter div {
+    background: #1D9BF0;
+    box-shadow: 4px 4px 10px rgba(29, 155, 240, 0.4);
+}
+
+#facebook {
+    position: absolute;
+    top: 240px;
+    left: calc(50% - 132px);
+}
+
+#facebook div {
+    background: #1778F2;
+    box-shadow: 4px 4px 10px rgba(23, 120, 242, 0.4);
+}
+
+#linkedin {
+    position: absolute;
+    top: 373px;
+    right: calc(25% - 40px);
+}
+
+#linkedin div {
+    background: #0A66C2;
+    box-shadow: 4px 4px 10px rgba(10, 102, 194, 0.4);
+}
+
+#whatsapp {
+    position: absolute;
+    top: 240px;
+    right: 50px;
+}
+
+#whatsapp div{
+    background: #28D146;
+    box-shadow: 4px 4px 10px rgba(40, 209, 70, 0.4);
+}
 @media (max-width: 1200px) {
-    /* .ForMen{
+    .ForMen{
         background-size: 130%;
-    } */
+    }
 }
 
 @media (max-width: 1000px) {
-    /* .ForMen{
+    .ForMen{
         background-size: 155%;
-    } */
+    }
 }
 
 @media (max-width: 500px) {
