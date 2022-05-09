@@ -131,10 +131,13 @@ p a {
 }
 
 .Cards img {
+    position: absolute;
     top: 0;
 }
 
 .Cards p {
+    position: absolute;
+    top: 35px;
     margin: 0;
 }
 
@@ -235,6 +238,14 @@ p a {
     width: 264px;
     height: 264px;
     border-radius: 40px;
+}
+
+.TalkButton img {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 #insta {
