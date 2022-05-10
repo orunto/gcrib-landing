@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Rische';
+    font-weight: bolder;
+    src: url('/assets/Rische\ Bold.otf');
+}
+
+@font-face {
+    font-family: 'Rische';
+    font-weight: lighter;
+    src: url('/assets/Rische\ Light.otf');
+}
+
+@font-face {
+    font-family: 'Rische';
+    font-weight: normal;
+    src: url('/assets/Rische\ Regular.otf');
+}
+
+@font-face {
+    font-family: 'Rische';
+    font-weight: 500;
+    src: url('/assets/Rische\ Medium.otf');
+}
+
+@font-face {
+    font-family: 'Rische';
+    font-weight: bold;
+    src: url('/assets/Rische\ Semibold.otf');
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -7,6 +37,7 @@ body {
 #root {
     scroll-behavior: smooth;
 }
+
 h2 {
     
     font-size: 50px;
@@ -14,6 +45,7 @@ h2 {
     font-family: 'Rische';
     font-weight: bold;
 }
+
 .ForMen {
     position: absolute;
     top: 0;
