@@ -38,6 +38,106 @@ h2 {
     display: none;
 }
 
+.menu {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    color: #fff;
+    font-size: 20px;
+    width: 90px;
+    font-family: 'Montserrat';
+    z-index: 3;
+}
+
+#menu {
+    display: block;
+}
+
+#menu2 {
+    display: none;
+}
+.menu img {
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+
+#search {
+    position: absolute;
+    top: 30px;
+    right: 188px;
+    color: #fff;
+    font-size: 20px;
+    width: 90px;
+    z-index: 3;
+    font-family: 'Montserrat';
+}
+
+#search img {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+#dropdown {
+    position: absolute;
+    top: -600px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    transition: 0.3s;
+}
+
+#dropdown a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#dropdown ul {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+    transition: 0.3s;
+}
+
+#dropdown li {
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+#dropdown li img {
+    transition: 0.3s;
+    margin-bottom: 2px;
+}
+
+#partners {
+    display: block;
+}
+
+#partners2 {
+    display: none;
+}
+
+.partneritem {
+    display: none;
+    opacity: 0;
+    font-size: 16px;
+}
+
+
+#navbar .Button {
+    position: absolute;
+    top: 380px;
+    /* top: 515px; */
+    right: 50px;
+}
 #chef {
     position: absolute;
     top: calc(50vh - 300px);
@@ -177,6 +277,9 @@ p a {
     color: #E28F1D;
 }
 
+.Button img {
+    margin-left: 10px;
+}
 .Simple .Button {
     position: absolute;
     top: 480px;
@@ -343,6 +446,8 @@ p a {
     font-family: 'Sora';
     font-size: 20px;
     color: #fff;
+    margin: 0;
+    font-weight: 200;
 }
 
 #DataForm {
@@ -367,6 +472,10 @@ p a {
     padding-left: 20px;
 }
 
+#tel::placeholder {
+    color: #fff;
+}
+
 #submit {
     font-family: 'Montserrat';
     background: #E28F1D;
@@ -378,15 +487,1074 @@ p a {
     padding: 10px;
     right: 0;
 }
-@media (max-width: 1200px) {
-    .ForMen{
+
+footer {
+    position: absolute;
+    top: 3700px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #232323;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+#crib {
+    position: absolute;
+    left: 50px;
+    top: 38px;
+}
+
+#backtotop {
+    position: absolute;
+    left: calc(50% - 44.5px);
+    top: 38px;
+    color: #fff;
+}
+
+#visit {
+    position: absolute;
+    right: 50px;
+    top: 38px;
+}
+
+
+@media (max-width: 1300px) {
+    h2 {
+        font-size: 40px;
+        margin: 0;
+        font-family: 'Rische';
+        font-weight: bold;
+    }
+
+    .ForMen {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 800px;
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Top Section.png');
         background-size: 130%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #logo {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        height: 30px;
+        z-index: 3;
+        width: auto;
+    }
+    
+    #logo2 {
+        display: none;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        color: #fff;
+        font-size: 20px;
+        width: 90px;
+        font-family: 'Montserrat';
+        z-index: 3;
+    }
+    
+    #menu {
+        display: block;
+    }
+    
+    #menu2 {
+        display: none;
+    }
+    .menu img {
+        position: absolute;
+        right: 0;
+        top: 9px;
+    }
+    
+    #search {
+        position: absolute;
+        top: 30px;
+        right: 188px;
+        color: #fff;
+        font-size: 20px;
+        width: 90px;
+        z-index: 3;
+        font-family: 'Montserrat';
+    }
+    
+    #search img {
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+    
+    #dropdown {
+        position: absolute;
+        top: -600px;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    #dropdown a {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.3s;
+    }
+    
+    #dropdown ul {
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: right;
+        margin: 0;
+        transition: 0.3s;
+    }
+    
+    #dropdown li {
+        margin-bottom: 25px;
+        transition: 0.3s;
+    }
+    
+    #dropdown li img {
+        transition: 0.3s;
+        margin-bottom: 2px;
+    }
+    
+    #partners {
+        display: block;
+    }
+    
+    #partners2 {
+        display: none;
+    }
+    
+    .partneritem {
+        display: none;
+        opacity: 0;
+        font-size: 16px;
+    }
+    
+    
+    #navbar .Button {
+        position: absolute;
+        top: 380px;
+        /* top: 515px; */
+        right: 50px;
+    }
+    #chef {
+        position: absolute;
+        top: calc(50vh - 300px);
+        left: calc(50vw - 150px);
+    }
+    
+    #chef2 {
+        display: none;
+    }
+    
+    h1 {
+        position: absolute;
+        top: 232px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Rische';
+        font-weight: normal;
+        margin: 0;
+        color: #286086;
+    }
+    
+    .ForMen p {
+        position: absolute;
+        top: 435px;
+        left: calc(50vw - 250px);
+        margin: 0;
+        width: 500px;
+        text-align: center;
+        font-family: 'Rische';
+        font-size: 50px;
+        font-weight: lighter;
+        color: #286086;
+    }
+    
+    p a {
+        color: #28D146;
+        text-decoration: none;
+    }
+    
+    #what {
+        position: absolute;
+        bottom: 50px;
+        left: calc(50vw - 131px);
+        font-size: 20px;
+        width: 262px;
+        font-family: 'Montserrat';
+        color: #28D146;
+        text-decoration: none;
+    }
+    
+    #what img {
+        position: absolute;
+        right: 0;
+        bottom: 1px;
+    }
+    
+    .Simple {
+        position: absolute;
+        top: 900px;
+        left: 50px;
+        width: calc(100vw - 100px);
+        
+    }
+    
+    .Simple h2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .simpler {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        font-size: 25px;
+        margin: 0;
+        font-family: 'Sora';
+        font-weight: 200;
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+    
+    .Cards {
+        width: 200px;
+        font-family: "Sora";
+        font-size: 16px;
+        margin: 0;
+        display: flex;
+    }
+    
+    .Cards img {
+        position: absolute;
+        top: 0;
+    }
+    
+    .Cards p {
+        position: absolute;
+        top: 35px;
+        margin: 0;
+    }
+    
+    #info {
+        position: absolute;
+        top: 190px;
+        left: 0;
+    }
+    
+    #stores {
+        position: absolute;
+        top: 292px;
+        left: calc(25% - 50px);
+    }
+    
+    #middle {
+        position: absolute;
+        top: 190px;
+        left: calc(50% - 100px);
+    }
+    
+    #connect {
+        position: absolute;
+        top: 292px;
+        right: calc(25% - 50px);
+    }
+    
+    #auto {
+        position: absolute;
+        top: 190px;
+        right: 0;
+    }
+    
+    .Button {
+        font-family: 'Montserrat';
+        font-size: 18px;
+        color: #E28F1D;
+    }
+    
+    .Button img {
+        margin-left: 10px;
+    }
+    .Simple .Button {
+        position: absolute;
+        top: 480px;
+        left: calc(50% - 51px);
+    }
+    
+    
+    .Dressed {
+        position: absolute;
+        top: 1490px;
+        left: 0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/image6.jpg');
+        background-size: 100%;
+    }
+    
+    .Dressed h2 {
+        position: absolute;
+        top: 110px;
+        left: 50px;
+        color: #fff;
+    }
+    
+    .Dressed p {
+        position: absolute;
+        top: 185px;
+        left: 50px;
+        font-size: 18px;
+        margin: 0;
+        font-family: 'Sora';
+        font-weight: 200;
+        width: 832px;
+        color: #fff;
+    }
+    
+    .Dressed .Button {
+        position: absolute;
+        top: 268px;
+        left: 50px;
+    }
+    
+    #Socials {
+        position: absolute;
+        top: 2200px;
+        left: 0;
+        width: 100%;
+    }
+    
+    #Socials h2 {
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        width: 100%;
+        text-align: right;
+    }
+    
+    .TalkButton {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        color: #fff;
+    }
+    
+    .TalkButton img {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .TalkButton p {
+        position: absolute;
+        top: 95px;
+        left: 15px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }
+    
+    .TalkButton span {
+        position: absolute;
+        bottom: 30px;
+        font-size: 16px;
+        left: 15px;
+        font-family: 'Montserrat';
+    }
+    
+    #insta {
+        position: absolute;
+        top: 240px;
+        left: 50px;
+    }
+    
+    #insta div {
+        background: #E1306C;
+        box-shadow: 4px 4px 10px rgba(225, 48, 108, 0.4);
+    }
+    
+    #twitter {
+        position: absolute;
+        top: 373px;
+        left: calc(25% - 20px);
+    }
+    
+    #twitter div {
+        background: #1D9BF0;
+        box-shadow: 4px 4px 10px rgba(29, 155, 240, 0.4);
+    }
+    
+    #facebook {
+        position: absolute;
+        top: 240px;
+        left: calc(50% - 100px);
+    }
+    
+    #facebook div {
+        background: #1778F2;
+        box-shadow: 4px 4px 10px rgba(23, 120, 242, 0.4);
+    }
+    
+    #linkedin {
+        position: absolute;
+        top: 373px;
+        right: calc(25% - 20px);
+    }
+    
+    #linkedin div {
+        background: #0A66C2;
+        box-shadow: 4px 4px 10px rgba(10, 102, 194, 0.4);
+    }
+    
+    #whatsapp {
+        position: absolute;
+        top: 240px;
+        right: 50px;
+    }
+    
+    #whatsapp div{
+        background: #28D146;
+        box-shadow: 4px 4px 10px rgba(40, 209, 70, 0.4);
+    }
+    
+    .OurApp {
+        position: absolute;
+        top: 3000px;
+        left: 0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/Group\ 22.png");
+        background-size: 100%;
+    }
+    
+    .OurApp h1 {
+        color: #fff;
+    }
+    
+    .OurApp p {
+        position: absolute;
+        top: 376px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-family: 'Sora';
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        font-weight: 200;
+    }
+    
+    #DataForm {
+        position: absolute;
+        top: 450px;
+        left: calc(50% - 240px);
+        width: 480px;
+        height: 60px;
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+    
+    #tel {
+        font-family: 'Montserrat';
+        background: transparent;
+        width: 225px;
+        height: 60px;
+        font-size: 20px;
+        border: 2px solid #FFFFFF;
+        border-radius: 5px 0px 0px 5px;
+        color: #fff;
+        padding-left: 20px;
+    }
+    
+    #tel::placeholder {
+        color: #fff;
+    }
+    
+    #submit {
+        font-family: 'Montserrat';
+        background: #E28F1D;
+        width: 225px;
+        height: 65px;
+        font-size: 20px;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px 5px 5px 0px;
+        padding: 10px;
+        right: 0;
+    }
+    
+    footer {
+        position: absolute;
+        top: 3700px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: #232323;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+    
+    #crib {
+        position: absolute;
+        left: 50px;
+        top: 38px;
+    }
+    
+    #backtotop {
+        position: absolute;
+        left: calc(50% - 44.5px);
+        top: 38px;
+        color: #fff;
+    }
+    
+    #visit {
+        position: absolute;
+        right: 50px;
+        top: 38px;
     }
 }
 
 @media (max-width: 1000px) {
     .ForMen{
         background-size: 155%;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: 0;
+        font-family: 'Rische';
+        font-weight: bold;
+    }
+
+    .ForMen {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 800px;
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Top Section.png');
+        background-size: 130%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #logo {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        height: 30px;
+        z-index: 3;
+        width: auto;
+    }
+    
+    #logo2 {
+        display: none;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        color: #fff;
+        font-size: 20px;
+        width: 90px;
+        font-family: 'Montserrat';
+        z-index: 3;
+    }
+    
+    #menu {
+        display: block;
+    }
+    
+    #menu2 {
+        display: none;
+    }
+    .menu img {
+        position: absolute;
+        right: 0;
+        top: 9px;
+    }
+    
+    #search {
+        position: absolute;
+        top: 30px;
+        right: 188px;
+        color: #fff;
+        font-size: 20px;
+        width: 90px;
+        z-index: 3;
+        font-family: 'Montserrat';
+    }
+    
+    #search img {
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+    
+    #dropdown {
+        position: absolute;
+        top: -600px;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    #dropdown a {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.3s;
+    }
+    
+    #dropdown ul {
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: right;
+        margin: 0;
+        transition: 0.3s;
+    }
+    
+    #dropdown li {
+        margin-bottom: 25px;
+        transition: 0.3s;
+    }
+    
+    #dropdown li img {
+        transition: 0.3s;
+        margin-bottom: 2px;
+    }
+    
+    #partners {
+        display: block;
+    }
+    
+    #partners2 {
+        display: none;
+    }
+    
+    .partneritem {
+        display: none;
+        opacity: 0;
+        font-size: 16px;
+    }
+    
+    
+    #navbar .Button {
+        position: absolute;
+        top: 380px;
+        /* top: 515px; */
+        right: 50px;
+    }
+    #chef {
+        position: absolute;
+        top: calc(50vh - 300px);
+        left: calc(50vw - 150px);
+    }
+    
+    #chef2 {
+        display: none;
+    }
+    
+    h1 {
+        position: absolute;
+        top: 232px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Rische';
+        font-weight: normal;
+        margin: 0;
+        color: #286086;
+    }
+    
+    .ForMen p {
+        position: absolute;
+        top: 435px;
+        left: calc(50vw - 250px);
+        margin: 0;
+        width: 500px;
+        text-align: center;
+        font-family: 'Rische';
+        font-size: 50px;
+        font-weight: lighter;
+        color: #286086;
+    }
+    
+    p a {
+        color: #28D146;
+        text-decoration: none;
+    }
+    
+    #what {
+        position: absolute;
+        bottom: 50px;
+        left: calc(50vw - 131px);
+        font-size: 20px;
+        width: 262px;
+        font-family: 'Montserrat';
+        color: #28D146;
+        text-decoration: none;
+    }
+    
+    #what img {
+        position: absolute;
+        right: 0;
+        bottom: 1px;
+    }
+    
+    .Simple {
+        position: absolute;
+        top: 900px;
+        left: 50px;
+        width: calc(100vw - 100px);
+        
+    }
+    
+    .Simple h2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .simpler {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        font-size: 25px;
+        margin: 0;
+        font-family: 'Sora';
+        font-weight: 200;
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+    
+    .Cards {
+        width: 200px;
+        font-family: "Sora";
+        font-size: 16px;
+        margin: 0;
+        display: flex;
+    }
+    
+    .Cards img {
+        position: absolute;
+        top: 0;
+    }
+    
+    .Cards p {
+        position: absolute;
+        top: 35px;
+        margin: 0;
+    }
+    
+    #info {
+        position: absolute;
+        top: 190px;
+        left: 0;
+    }
+    
+    #stores {
+        position: absolute;
+        top: 292px;
+        left: calc(25% - 50px);
+    }
+    
+    #middle {
+        position: absolute;
+        top: 190px;
+        left: calc(50% - 100px);
+    }
+    
+    #connect {
+        position: absolute;
+        top: 292px;
+        right: calc(25% - 50px);
+    }
+    
+    #auto {
+        position: absolute;
+        top: 190px;
+        right: 0;
+    }
+    
+    .Button {
+        font-family: 'Montserrat';
+        font-size: 18px;
+        color: #E28F1D;
+    }
+    
+    .Button img {
+        margin-left: 10px;
+    }
+    .Simple .Button {
+        position: absolute;
+        top: 480px;
+        left: calc(50% - 51px);
+    }
+    
+    
+    .Dressed {
+        position: absolute;
+        top: 1490px;
+        left: 0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/image6.jpg');
+        background-size: 100%;
+    }
+    
+    .Dressed h2 {
+        position: absolute;
+        top: 110px;
+        left: 50px;
+        color: #fff;
+    }
+    
+    .Dressed p {
+        position: absolute;
+        top: 185px;
+        left: 50px;
+        font-size: 18px;
+        margin: 0;
+        font-family: 'Sora';
+        font-weight: 200;
+        width: 832px;
+        color: #fff;
+    }
+    
+    .Dressed .Button {
+        position: absolute;
+        top: 268px;
+        left: 50px;
+    }
+    
+    #Socials {
+        position: absolute;
+        top: 2200px;
+        left: 0;
+        width: 100%;
+    }
+    
+    #Socials h2 {
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        width: 100%;
+        text-align: right;
+    }
+    
+    .TalkButton {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        color: #fff;
+    }
+    
+    .TalkButton img {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .TalkButton p {
+        position: absolute;
+        top: 95px;
+        left: 15px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }
+    
+    .TalkButton span {
+        position: absolute;
+        bottom: 30px;
+        font-size: 16px;
+        left: 15px;
+        font-family: 'Montserrat';
+    }
+    
+    #insta {
+        position: absolute;
+        top: 240px;
+        left: 50px;
+    }
+    
+    #insta div {
+        background: #E1306C;
+        box-shadow: 4px 4px 10px rgba(225, 48, 108, 0.4);
+    }
+    
+    #twitter {
+        position: absolute;
+        top: 373px;
+        left: calc(25% - 20px);
+    }
+    
+    #twitter div {
+        background: #1D9BF0;
+        box-shadow: 4px 4px 10px rgba(29, 155, 240, 0.4);
+    }
+    
+    #facebook {
+        position: absolute;
+        top: 240px;
+        left: calc(50% - 100px);
+    }
+    
+    #facebook div {
+        background: #1778F2;
+        box-shadow: 4px 4px 10px rgba(23, 120, 242, 0.4);
+    }
+    
+    #linkedin {
+        position: absolute;
+        top: 373px;
+        right: calc(25% - 20px);
+    }
+    
+    #linkedin div {
+        background: #0A66C2;
+        box-shadow: 4px 4px 10px rgba(10, 102, 194, 0.4);
+    }
+    
+    #whatsapp {
+        position: absolute;
+        top: 240px;
+        right: 50px;
+    }
+    
+    #whatsapp div{
+        background: #28D146;
+        box-shadow: 4px 4px 10px rgba(40, 209, 70, 0.4);
+    }
+    
+    .OurApp {
+        position: absolute;
+        top: 3000px;
+        left: 0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/Group\ 22.png");
+        background-size: 100%;
+    }
+    
+    .OurApp h1 {
+        color: #fff;
+    }
+    
+    .OurApp p {
+        position: absolute;
+        top: 376px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-family: 'Sora';
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        font-weight: 200;
+    }
+    
+    #DataForm {
+        position: absolute;
+        top: 450px;
+        left: calc(50% - 240px);
+        width: 480px;
+        height: 60px;
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+    
+    #tel {
+        font-family: 'Montserrat';
+        background: transparent;
+        width: 225px;
+        height: 60px;
+        font-size: 20px;
+        border: 2px solid #FFFFFF;
+        border-radius: 5px 0px 0px 5px;
+        color: #fff;
+        padding-left: 20px;
+    }
+    
+    #tel::placeholder {
+        color: #fff;
+    }
+    
+    #submit {
+        font-family: 'Montserrat';
+        background: #E28F1D;
+        width: 225px;
+        height: 65px;
+        font-size: 20px;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px 5px 5px 0px;
+        padding: 10px;
+        right: 0;
+    }
+    
+    footer {
+        position: absolute;
+        top: 3700px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: #232323;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+    
+    #crib {
+        position: absolute;
+        left: 50px;
+        top: 38px;
+    }
+    
+    #backtotop {
+        position: absolute;
+        left: calc(50% - 44.5px);
+        top: 38px;
+        color: #fff;
+    }
+    
+    #visit {
+        position: absolute;
+        right: 50px;
+        top: 38px;
     }
 }
 
@@ -405,64 +1573,181 @@ p a {
         margin: 0;
     } 
     
-    #logo {
-        display: none;
-        
+    h2 {
+        font-size: 40px;
+        margin: 0;
+        font-family: 'Rische';
+        font-weight: bold;
     }
 
-    #logo2 {
-        display: block;
+    .ForMen {
         position: absolute;
-        top: 25px;
-        left: 25px;
-        height: 20px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 800px;
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Top Section.png');
+        background-size: 130%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #logo {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        height: 30px;
+        z-index: 3;
         width: auto;
+    }
+    
+    #logo2 {
+        display: none;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        color: #fff;
+        font-size: 20px;
+        width: 90px;
+        font-family: 'Montserrat';
         z-index: 3;
     }
-
-    #chef {
+    
+    #menu {
+        display: block;
+    }
+    
+    #menu2 {
         display: none;
     }
-
-    #chef2 {
-        display: block;
+    .menu img {
         position: absolute;
-        top: 150px;
-        left: calc(50vw - 125px);
-        width: 250px;
+        right: 0;
+        top: 9px;
     }
-
+    
+    #search {
+        position: absolute;
+        top: 30px;
+        right: 188px;
+        color: #fff;
+        font-size: 20px;
+        width: 90px;
+        z-index: 3;
+        font-family: 'Montserrat';
+    }
+    
+    #search img {
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+    
+    #dropdown {
+        position: absolute;
+        top: -600px;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    #dropdown a {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.3s;
+    }
+    
+    #dropdown ul {
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: right;
+        margin: 0;
+        transition: 0.3s;
+    }
+    
+    #dropdown li {
+        margin-bottom: 25px;
+        transition: 0.3s;
+    }
+    
+    #dropdown li img {
+        transition: 0.3s;
+        margin-bottom: 2px;
+    }
+    
+    #partners {
+        display: block;
+    }
+    
+    #partners2 {
+        display: none;
+    }
+    
+    .partneritem {
+        display: none;
+        opacity: 0;
+        font-size: 16px;
+    }
+    
+    
+    #navbar .Button {
+        position: absolute;
+        top: 380px;
+        /* top: 515px; */
+        right: 50px;
+    }
+    #chef {
+        position: absolute;
+        top: calc(50vh - 300px);
+        left: calc(50vw - 150px);
+    }
+    
+    #chef2 {
+        display: none;
+    }
+    
     h1 {
         position: absolute;
-        top: 250px;
-        left: 25px;
-        width: calc(100vw - 50px);
+        top: 232px;
+        left: 0;
+        width: 100%;
         text-align: center;
-        font-size: 50px;
+        font-size: 100px;
         font-family: 'Rische';
         font-weight: normal;
         margin: 0;
         color: #286086;
     }
-
+    
     .ForMen p {
         position: absolute;
-        top: 450px;
-        left: 25px;
+        top: 435px;
+        left: calc(50vw - 250px);
         margin: 0;
-        width: calc(100vw - 50px);
+        width: 500px;
         text-align: center;
         font-family: 'Rische';
-        font-size: 30px;
+        font-size: 50px;
         font-weight: lighter;
-        color: #fff;
+        color: #286086;
     }
-
+    
     p a {
         color: #28D146;
         text-decoration: none;
     }
-
+    
     #what {
         position: absolute;
         bottom: 50px;
@@ -473,10 +1758,334 @@ p a {
         color: #28D146;
         text-decoration: none;
     }
-
+    
+    #what img {
+        position: absolute;
+        right: 0;
+        bottom: 1px;
+    }
+    
     .Simple {
         position: absolute;
         top: 900px;
+        left: 50px;
+        width: calc(100vw - 100px);
+        
+    }
+    
+    .Simple h2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .simpler {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        font-size: 25px;
+        margin: 0;
+        font-family: 'Sora';
+        font-weight: 200;
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+    
+    .Cards {
+        width: 200px;
+        font-family: "Sora";
+        font-size: 16px;
+        margin: 0;
+        display: flex;
+    }
+    
+    .Cards img {
+        position: absolute;
+        top: 0;
+    }
+    
+    .Cards p {
+        position: absolute;
+        top: 35px;
+        margin: 0;
+    }
+    
+    #info {
+        position: absolute;
+        top: 190px;
+        left: 0;
+    }
+    
+    #stores {
+        position: absolute;
+        top: 292px;
+        left: calc(25% - 50px);
+    }
+    
+    #middle {
+        position: absolute;
+        top: 190px;
+        left: calc(50% - 100px);
+    }
+    
+    #connect {
+        position: absolute;
+        top: 292px;
+        right: calc(25% - 50px);
+    }
+    
+    #auto {
+        position: absolute;
+        top: 190px;
+        right: 0;
+    }
+    
+    .Button {
+        font-family: 'Montserrat';
+        font-size: 18px;
+        color: #E28F1D;
+    }
+    
+    .Button img {
+        margin-left: 10px;
+    }
+    .Simple .Button {
+        position: absolute;
+        top: 480px;
+        left: calc(50% - 51px);
+    }
+    
+    
+    .Dressed {
+        position: absolute;
+        top: 1490px;
+        left: 0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/image6.jpg');
+        background-size: 100%;
+    }
+    
+    .Dressed h2 {
+        position: absolute;
+        top: 110px;
+        left: 50px;
+        color: #fff;
+    }
+    
+    .Dressed p {
+        position: absolute;
+        top: 185px;
+        left: 50px;
+        font-size: 18px;
+        margin: 0;
+        font-family: 'Sora';
+        font-weight: 200;
+        width: 832px;
+        color: #fff;
+    }
+    
+    .Dressed .Button {
+        position: absolute;
+        top: 268px;
+        left: 50px;
+    }
+    
+    #Socials {
+        position: absolute;
+        top: 2200px;
+        left: 0;
+        width: 100%;
+    }
+    
+    #Socials h2 {
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        width: 100%;
+        text-align: right;
+    }
+    
+    .TalkButton {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        color: #fff;
+    }
+    
+    .TalkButton img {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .TalkButton p {
+        position: absolute;
+        top: 95px;
+        left: 15px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }
+    
+    .TalkButton span {
+        position: absolute;
+        bottom: 30px;
+        font-size: 16px;
+        left: 15px;
+        font-family: 'Montserrat';
+    }
+    
+    #insta {
+        position: absolute;
+        top: 240px;
+        left: 50px;
+    }
+    
+    #insta div {
+        background: #E1306C;
+        box-shadow: 4px 4px 10px rgba(225, 48, 108, 0.4);
+    }
+    
+    #twitter {
+        position: absolute;
+        top: 373px;
+        left: calc(25% - 20px);
+    }
+    
+    #twitter div {
+        background: #1D9BF0;
+        box-shadow: 4px 4px 10px rgba(29, 155, 240, 0.4);
+    }
+    
+    #facebook {
+        position: absolute;
+        top: 240px;
+        left: calc(50% - 100px);
+    }
+    
+    #facebook div {
+        background: #1778F2;
+        box-shadow: 4px 4px 10px rgba(23, 120, 242, 0.4);
+    }
+    
+    #linkedin {
+        position: absolute;
+        top: 373px;
+        right: calc(25% - 20px);
+    }
+    
+    #linkedin div {
+        background: #0A66C2;
+        box-shadow: 4px 4px 10px rgba(10, 102, 194, 0.4);
+    }
+    
+    #whatsapp {
+        position: absolute;
+        top: 240px;
+        right: 50px;
+    }
+    
+    #whatsapp div{
+        background: #28D146;
+        box-shadow: 4px 4px 10px rgba(40, 209, 70, 0.4);
+    }
+    
+    .OurApp {
+        position: absolute;
+        top: 3000px;
+        left: 0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/Group\ 22.png");
+        background-size: 100%;
+    }
+    
+    .OurApp h1 {
+        color: #fff;
+    }
+    
+    .OurApp p {
+        position: absolute;
+        top: 376px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-family: 'Sora';
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        font-weight: 200;
+    }
+    
+    #DataForm {
+        position: absolute;
+        top: 450px;
+        left: calc(50% - 240px);
+        width: 480px;
+        height: 60px;
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+    
+    #tel {
+        font-family: 'Montserrat';
+        background: transparent;
+        width: 225px;
+        height: 60px;
+        font-size: 20px;
+        border: 2px solid #FFFFFF;
+        border-radius: 5px 0px 0px 5px;
+        color: #fff;
+        padding-left: 20px;
+    }
+    
+    #tel::placeholder {
+        color: #fff;
+    }
+    
+    #submit {
+        font-family: 'Montserrat';
+        background: #E28F1D;
+        width: 225px;
+        height: 65px;
+        font-size: 20px;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px 5px 5px 0px;
+        padding: 10px;
+        right: 0;
+    }
+    
+    footer {
+        position: absolute;
+        top: 3700px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: #232323;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+    
+    #crib {
+        position: absolute;
+        left: 50px;
+        top: 38px;
+    }
+    
+    #backtotop {
+        position: absolute;
+        left: calc(50% - 44.5px);
+        top: 38px;
+        color: #fff;
+    }
+    
+    #visit {
+        position: absolute;
+        right: 50px;
+        top: 38px;
     }
 
 }

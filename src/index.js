@@ -1,7 +1,10 @@
 // Design Components
 function Button (props) {
     return(
-        <div className="Button"> {props.children} </div>
+        <div className="Button"> 
+            {props.children} 
+            <img src="/images/Mouse.svg"></img>
+        </div>
     );
 }
 
@@ -42,21 +45,74 @@ function DataForm (props) {
 // Interactions
 
 function Drop () {
-    navbar.style.height = "500px";
-    menu1.style.display = "none";
+    dropdown.style.top = "0px";
+    menu.style.display = "none";
+    menu2.style.display = "block";
 }
 
 function Retract () {
-    navbar.style.height = "50px";
-    menu1.style.display = "block";
+    dropdown.style.top = "-600px";
+    menu2.style.display = "none";
+    menu.style.display = "block";
 }
 
+function ShowPartners () {
+    const button = document.querySelector(".Button");
+    creators.style.display = "block";
+    store.style.display = "block";
+    stylists.style.display = "block";
+    setTimeout(
+        function() {
+            creators.style.opacity = "1";
+            store.style.opacity = "1";
+            stylists.style.opacity = "1";
+        }
+    , 300);
+    partners.style.display = "none";
+    partners2.style.display = "block";
+    button.style.top = "515px";
+}
+
+function HidePartners () {
+    const button = document.querySelector(".Button");
+    setTimeout(
+        function() {
+            creators.style.opacity = "0";
+            store.style.opacity = "0";
+            stylists.style.opacity = "0";
+        }
+    , 300);
+    creators.style.display = "none";
+    store.style.display = "none";
+    stylists.style.display = "none";
+    partners2.style.display = "none";
+    partners.style.display = "block";
+    button.style.top = "380px";
+}
 // Sections
 function Header (){
     return(
         <nav id="navbar">
             <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo.png" id="logo"></img>
             <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Icon.png" id="logo2"></img>
+            <span onClick={Drop} className="menu" id="menu">Menu<img src="/images/Menu.svg"></img></span>
+            <span onClick={Retract} className="menu" id="menu2">Menu<img src="/images/Menu.svg"></img></span>
+            <span id="search">Search<img src="/images/search.svg"></img></span>
+            <div id="dropdown">
+                <ul>
+                   <li> <a href="#">Home</a> </li>
+                   <li> <a href="#">For You</a> </li>
+                   <li> <a href="#">For You +</a> </li>
+                   <li id="partners" onClick={ShowPartners}> <a href="#">Partners <img src="/images/partner.svg"></img></a> </li>
+                   <li id="partners2" onClick={HidePartners}> <a href="#">Partners <img src="/images/partner.svg"></img></a> </li>
+                   <li className="partneritem" id="creators"> <a href="#">Creators</a> </li>
+                   <li className="partneritem" id="store"> <a href="#">Stores</a> </li>
+                   <li className="partneritem" id="stylists"> <a href="#">Stylists</a> </li>
+                   <li> <a href="#">For Companies</a> </li>
+                </ul>
+
+                <a href="#" id="dropbutton"><Button>Visit Crib</Button></a>
+            </div>
         </nav>
     );
 }
@@ -80,7 +136,7 @@ function Simple () {
             <p className="simpler">...and we make it even simpler</p>
             <div id="info">
                 <Cards>
-                    <img src="/images/search.svg"></img>
+                    <img src="/images/find.svg"></img>
                     <p>Find the information you need, answers to any questions</p>
                 </Cards>
             </div>
@@ -191,7 +247,7 @@ function Home (){
             <Dressed />
             <Socials />
             <OurApp />
-            {/* <Footer /> */}
+            <Footer />
         </body>
     );
 }
