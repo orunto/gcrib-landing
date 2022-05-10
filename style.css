@@ -278,7 +278,8 @@ p a {
 }
 
 .Button img {
-    margin-left: 10px;
+    position: absolute;
+    right: -23px;
 }
 .Simple .Button {
     position: absolute;
@@ -502,8 +503,14 @@ footer {
 
 #crib {
     position: absolute;
-    left: 50px;
+    left: 80px;
     top: 38px;
+}
+
+#crib img {
+    position: absolute;
+    top: 0;
+    left: -30px;
 }
 
 #backtotop {
@@ -2080,7 +2087,7 @@ footer {
     
     #crib {
         position: absolute;
-        left: 30px;
+        left: 60px;
         top: 15px;
     }
     
