@@ -1,8 +1,12 @@
 body {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
+#root {
+    scroll-behavior: smooth;
+}
 h2 {
     
     font-size: 50px;
@@ -56,12 +60,19 @@ h2 {
 #menu2 {
     display: none;
 }
+
+#menu2 img {
+    top: 2px;
+}
 .menu img {
     position: absolute;
     right: 0;
     top: 9px;
 }
 
+.mobilemenu {
+    display: none;
+}
 #search {
     position: absolute;
     top: 30px;
@@ -125,6 +136,11 @@ h2 {
     display: none;
 }
 
+#partners2 img {
+    
+    transform: rotate(180deg);
+}
+
 .partneritem {
     display: none;
     opacity: 0;
@@ -135,8 +151,7 @@ h2 {
 #navbar .Button {
     position: absolute;
     top: 380px;
-    /* top: 515px; */
-    right: 50px;
+    right: 73px;
 }
 #chef {
     position: absolute;
@@ -378,8 +393,13 @@ p a {
 #insta div {
     background: #E1306C;
     box-shadow: 4px 4px 10px rgba(225, 48, 108, 0.4);
+    transition: 0.3s;
 }
 
+#insta div:hover {
+    background: #E1306C;
+    box-shadow: 10px 10px 10px rgba(225, 48, 108, 0.4);
+}
 #twitter {
     position: absolute;
     top: 373px;
@@ -389,6 +409,13 @@ p a {
 #twitter div {
     background: #1D9BF0;
     box-shadow: 4px 4px 10px rgba(29, 155, 240, 0.4);
+    transition: 0.3s;
+}
+
+#twitter div:hover {
+    background: #1D9BF0;
+    box-shadow: 10px 10px 10px rgba(29, 155, 240, 0.4);
+    transition: 0.3s;
 }
 
 #facebook {
@@ -400,6 +427,13 @@ p a {
 #facebook div {
     background: #1778F2;
     box-shadow: 4px 4px 10px rgba(23, 120, 242, 0.4);
+    transition: 0.3s;
+}
+
+#facebook div:hover {
+    background: #1778F2;
+    box-shadow: 10px 10px 10px rgba(23, 120, 242, 0.4);
+    transition: 0.3s;
 }
 
 #linkedin {
@@ -411,6 +445,13 @@ p a {
 #linkedin div {
     background: #0A66C2;
     box-shadow: 4px 4px 10px rgba(10, 102, 194, 0.4);
+    transition: 0.3s;
+}
+
+#linkedin div:hover {
+    background: #0A66C2;
+    box-shadow: 10px 10px 10px rgba(10, 102, 194, 0.4);
+    transition: 0.3s;
 }
 
 #whatsapp {
@@ -422,6 +463,13 @@ p a {
 #whatsapp div{
     background: #28D146;
     box-shadow: 4px 4px 10px rgba(40, 209, 70, 0.4);
+    transition: 0.3s;
+}
+
+#whatsapp div:hover{
+    background: #28D146;
+    box-shadow: 10px 10px 10px rgba(40, 209, 70, 0.4);
+    transition: 0.3s;
 }
 
 .OurApp {
@@ -509,7 +557,7 @@ footer {
 
 #crib img {
     position: absolute;
-    top: 0;
+    top: 4px;
     left: -30px;
 }
 
@@ -659,8 +707,7 @@ footer {
     #navbar .Button {
         position: absolute;
         top: 380px;
-        /* top: 515px; */
-        right: 50px;
+        right: 73px;
     }
     #chef {
         position: absolute;
@@ -801,9 +848,6 @@ footer {
         color: #E28F1D;
     }
     
-    .Button img {
-        margin-left: 10px;
-    }
     .Simple .Button {
         position: absolute;
         top: 480px;
@@ -1180,8 +1224,7 @@ footer {
     #navbar .Button {
         position: absolute;
         top: 380px;
-        /* top: 515px; */
-        right: 50px;
+        right: 73px;
     }
     #chef {
         position: absolute;
@@ -1550,6 +1593,12 @@ footer {
         left: 50px;
         top: 38px;
     }
+
+    #crib img {
+        position: absolute;
+        top: 2px;
+        left: -30px;
+    }
     
     #backtotop {
         position: absolute;
@@ -1602,41 +1651,48 @@ footer {
     }
     
     .menu {
-        position: absolute;
-        top: 25px;
-        right: 30px;
-        color: #fff;
-        font-size: 16px;
-        width: 70px;
-        font-family: 'Montserrat';
-        z-index: 3;
+        display: none;
     }
 
     #menu {
-        display: block;
+        display: none;
     }
-    
+
     #menu2 {
         display: none;
     }
-    .menu img {
+    .mobilemenu {
         position: absolute;
-        right: 0;
-        top: 7px;
-        width: 16px;
-    }
-    
-    #search {
-        position: absolute;
-        top: 25px;
-        right: 120px;
+        display: block;
+        top: 32px;
+        right: 30px;
         color: #fff;
         font-size: 16px;
-        width: 75px;
+        width: 20px;
+        font-family: 'Montserrat';
+        z-index: 3;
+    }
+    
+    #mobilemenu2 {
+        display: none;
+        top: 30px;
+        width: 15px;
+    }
+    #search {
+        display: none;
+    }
+    
+    #mobilesearch {
+        position: absolute;
+        top: 30px;
+        right: 65px;
+        color: #fff;
+        font-size: 16px;
+        width: 15px;
         z-index: 3;
         font-family: 'Montserrat';
     }
-    
+
     #search img {
         position: absolute;
         right: 0;
@@ -1664,7 +1720,7 @@ footer {
     #dropdown ul {
         position: absolute;
         top: 100px;
-        right: 50px;
+        right: 30px;
         font-family: 'Montserrat';
         font-size: 20px;
         text-align: right;
@@ -1700,8 +1756,7 @@ footer {
     #navbar .Button {
         position: absolute;
         top: 380px;
-        /* top: 515px; */
-        right: 50px;
+        right: 53px;
     }
     #chef {
         position: absolute;
@@ -1731,9 +1786,9 @@ footer {
     .ForMen p {
         position: absolute;
         top: 450px;
-        left: 0;
+        left: 30px;
         margin: 0;
-        width: 100%;
+        width: calc(100% - 60px);
         text-align: center;
         font-family: 'Rische';
         font-size: 30px;
@@ -1774,7 +1829,8 @@ footer {
     .Simple h2 {
         position: absolute;
         top: 100px;
-        width: 100%;
+        left: 30px;
+        width: calc(100% - 60px);
         text-align: center;
     }
     
@@ -2107,4 +2163,5 @@ footer {
         width: max-content;
     }
 
+    
 }

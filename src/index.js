@@ -56,6 +56,20 @@ function Retract () {
     menu.style.display = "block";
 }
 
+
+function MobileDrop () {
+    dropdown.style.top = "0px";
+    mobilemenu.style.display = "none";
+    mobilemenu2.style.display = "block";
+}
+
+function MobileRetract () {
+    dropdown.style.top = "-600px";
+    mobilemenu2.style.display = "none";
+    mobilemenu.style.display = "block";
+}
+
+
 function ShowPartners () {
     const button = document.querySelector(".Button");
     creators.style.display = "block";
@@ -96,8 +110,12 @@ function Header (){
             <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo.png" id="logo"></img>
             <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Icon.png" id="logo2"></img>
             <span onClick={Drop} className="menu" id="menu">Menu<img src="/images/Menu.svg"></img></span>
-            <span onClick={Retract} className="menu" id="menu2">Menu<img src="/images/Menu.svg"></img></span>
+            <span onClick={Retract} className="menu" id="menu2">Menu<img src="/images/cancel.svg"></img></span>
             <span id="search">Search<img src="/images/search.svg"></img></span>
+
+            <img onClick={MobileDrop} className="mobilemenu" id="mobilemenu" src="/images/Menu.svg"></img>
+            <img onClick={MobileRetract} className="mobilemenu" id="mobilemenu2" src="/images/cancel.svg"></img>
+            <img id="mobilesearch" src="/images/search.svg"></img>
             <div id="dropdown">
                 <ul>
                    <li> <a href="#">Home</a> </li>
@@ -208,7 +226,7 @@ function Socials (){
                 <p>wa.me/2348027132741</p>
                         <span>Send a Text</span>
                 </TalkButton></a></div>
-                <div id="linkedin"><a href="https://linkedin.com/"><TalkButton><img src="./images/LinkedIn.svg"/>
+                <div id="linkedin"><a href="https://www.linkedin.com/company/gentlemens-crib/"><TalkButton><img src="./images/LinkedIn.svg"/>
                 <p>Gentlemen's Crib</p>
                         <span>Visit Profile</span>
                 </TalkButton></a></div>
@@ -232,7 +250,7 @@ function Footer (){
     return(
         <footer>
             <span id="crib"><img src="/images/copyright.svg"></img> Gentlemen's Crib</span>
-            <a href="#here"><span id="backtotop">Back to Top</span></a>
+            <a href="#menu"><span id="backtotop">Back to Top</span></a>
             <span id="visit">Visit Crib</span>
         </footer>
     );
