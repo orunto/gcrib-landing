@@ -1559,22 +1559,8 @@ footer {
 }
 
 @media (max-width: 500px) {
-    .ForMen {
-        position: absolute;
-        top: 0;
-        width: 100vw;
-        height: 800px;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Top Section.png');
-        background-size: 100%;
-        /* background-attachment: fixed; */
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0;
-        margin: 0;
-    } 
-    
     h2 {
-        font-size: 40px;
+        font-size: 30px;
         margin: 0;
         font-family: 'Rische';
         font-weight: bold;
@@ -1586,8 +1572,8 @@ footer {
         left: 0;
         width: 100%;
         height: 800px;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Top Section.png');
-        background-size: 130%;
+        background: url('/images/Top Section Mobile.png');
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         padding: 0;
@@ -1595,29 +1581,30 @@ footer {
     }
     
     #logo {
-        position: absolute;
-        top: 30px;
-        left: 50px;
-        height: 30px;
-        z-index: 3;
-        width: auto;
+        display: none;
     }
     
     #logo2 {
-        display: none;
+        position: absolute;
+        top: 25px;
+        left: 30px;
+        height: 20px;
+        z-index: 3;
+        width: auto;
+        display: block;
     }
     
     .menu {
         position: absolute;
-        top: 30px;
-        right: 50px;
+        top: 25px;
+        right: 30px;
         color: #fff;
-        font-size: 20px;
-        width: 90px;
+        font-size: 16px;
+        width: 70px;
         font-family: 'Montserrat';
         z-index: 3;
     }
-    
+
     #menu {
         display: block;
     }
@@ -1628,16 +1615,17 @@ footer {
     .menu img {
         position: absolute;
         right: 0;
-        top: 9px;
+        top: 7px;
+        width: 16px;
     }
     
     #search {
         position: absolute;
-        top: 30px;
-        right: 188px;
+        top: 25px;
+        right: 120px;
         color: #fff;
-        font-size: 20px;
-        width: 90px;
+        font-size: 16px;
+        width: 75px;
         z-index: 3;
         font-family: 'Montserrat';
     }
@@ -1645,7 +1633,8 @@ footer {
     #search img {
         position: absolute;
         right: 0;
-        top: 5px;
+        top: 2px;
+        width: 16px;
     }
     
     #dropdown {
@@ -1709,8 +1698,10 @@ footer {
     }
     #chef {
         position: absolute;
-        top: calc(50vh - 300px);
-        left: calc(50vw - 150px);
+        top: 150px;
+        left: calc(50vw - 125px);
+        width: 250px;
+        height: 500px;
     }
     
     #chef2 {
@@ -1723,23 +1714,23 @@ footer {
         left: 0;
         width: 100%;
         text-align: center;
-        font-size: 100px;
+        font-size: 50px;
         font-family: 'Rische';
-        font-weight: normal;
+        font-weight: bold;
         margin: 0;
         color: #286086;
     }
     
     .ForMen p {
         position: absolute;
-        top: 435px;
-        left: calc(50vw - 250px);
+        top: 450px;
+        left: 0;
         margin: 0;
-        width: 500px;
+        width: 100%;
         text-align: center;
         font-family: 'Rische';
-        font-size: 50px;
-        font-weight: lighter;
+        font-size: 30px;
+        font-weight: bold;
         color: #286086;
     }
     
@@ -1767,22 +1758,24 @@ footer {
     
     .Simple {
         position: absolute;
-        top: 900px;
-        left: 50px;
-        width: calc(100vw - 100px);
+        top: 800px;
+        left: 0;
+        width: 100%;
         
     }
     
     .Simple h2 {
+        position: absolute;
+        top: 100px;
         width: 100%;
         text-align: center;
     }
     
     .simpler {
         position: absolute;
-        top: 70px;
+        top: 187px;
         left: 0;
-        font-size: 25px;
+        font-size: 20px;
         margin: 0;
         font-family: 'Sora';
         font-weight: 200;
@@ -1792,11 +1785,11 @@ footer {
     }
     
     .Cards {
-        width: 200px;
+        width: 260px;
         font-family: "Sora";
         font-size: 16px;
         margin: 0;
-        display: flex;
+        display: block;
     }
     
     .Cards img {
@@ -1808,36 +1801,55 @@ footer {
         position: absolute;
         top: 35px;
         margin: 0;
+        text-align: inherit;
     }
     
     #info {
         position: absolute;
-        top: 190px;
-        left: 0;
+        top: 261px;
+        left: 30px;
     }
     
     #stores {
         position: absolute;
-        top: 292px;
-        left: calc(25% - 50px);
+        top: 376px;
+        right: 30px;
+        text-align: right;
     }
     
+    #stores p {
+        text-align: right;
+        right: 0;
+    }
+
+    #stores img {
+        right: 0;
+    }
+
     #middle {
         position: absolute;
-        top: 190px;
-        left: calc(50% - 100px);
+        top: 496px;
+        left: 30px;
     }
     
     #connect {
         position: absolute;
-        top: 292px;
-        right: calc(25% - 50px);
+        top: 616px;
+        right: 30px;
     }
-    
+
+    #connect img {
+        right: 0;
+    }
+   
+    #connect p {
+        text-align: right;
+    }
+
     #auto {
         position: absolute;
-        top: 190px;
-        right: 0;
+        top: 736px;
+        left: 30px;
     }
     
     .Button {
@@ -1851,49 +1863,50 @@ footer {
     }
     .Simple .Button {
         position: absolute;
-        top: 480px;
+        top: 884px;
         left: calc(50% - 51px);
     }
     
     
     .Dressed {
         position: absolute;
-        top: 1490px;
+        top: 1800px;
         left: 0;
         width: 100%;
         height: 700px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/image6.jpg');
-        background-size: 100%;
+        background-size: cover;
+        background-position: center;
     }
     
     .Dressed h2 {
         position: absolute;
-        top: 110px;
-        left: 50px;
+        top: 100px;
+        left: 30px;
         color: #fff;
     }
     
     .Dressed p {
         position: absolute;
-        top: 185px;
-        left: 50px;
-        font-size: 18px;
+        top: 192px;
+        left: 30px;
+        font-size: 16px;
         margin: 0;
         font-family: 'Sora';
         font-weight: 200;
-        width: 832px;
+        width: calc(100% - 60px);
         color: #fff;
     }
     
     .Dressed .Button {
         position: absolute;
-        top: 268px;
-        left: 50px;
+        top: 292px;
+        left: 30px;
     }
     
     #Socials {
         position: absolute;
-        top: 2200px;
+        top: 2500px;
         left: 0;
         width: 100%;
     }
@@ -1901,46 +1914,39 @@ footer {
     #Socials h2 {
         position: absolute;
         top: 100px;
-        right: 50px;
-        width: 100%;
+        right: 30px;
+        width: calc(100% - 60px);
         text-align: right;
     }
     
     .TalkButton {
-        width: 200px;
-        height: 200px;
-        border-radius: 20px;
+        width: 118px;
+        height: 118px;
+        border-radius: 40px;
         color: #fff;
+        margin: 0;
     }
     
     .TalkButton img {
         position: absolute;
-        top: 30px;
-        left: 15px;
-        width: 30px;
-        height: 30px;
+        top: 29px;
+        left: 29px;
+        width: 60px;
+        height: 60px;
     }
     
     .TalkButton p {
-        position: absolute;
-        top: 95px;
-        left: 15px;
-        font-size: 16px;
-        font-family: 'Montserrat';
+        display: none;
     }
     
     .TalkButton span {
-        position: absolute;
-        bottom: 30px;
-        font-size: 16px;
-        left: 15px;
-        font-family: 'Montserrat';
+        display: none;
     }
     
     #insta {
         position: absolute;
-        top: 240px;
-        left: 50px;
+        top: 257px;
+        left: 30px;
     }
     
     #insta div {
@@ -1950,8 +1956,9 @@ footer {
     
     #twitter {
         position: absolute;
-        top: 373px;
-        left: calc(25% - 20px);
+        top: 257px;
+        left: unset;
+        right: 30px;
     }
     
     #twitter div {
@@ -1961,8 +1968,8 @@ footer {
     
     #facebook {
         position: absolute;
-        top: 240px;
-        left: calc(50% - 100px);
+        top: 426px;
+        left: 30px;
     }
     
     #facebook div {
@@ -1972,8 +1979,8 @@ footer {
     
     #linkedin {
         position: absolute;
-        top: 373px;
-        right: calc(25% - 20px);
+        top: 426px;
+        right: 30px;
     }
     
     #linkedin div {
@@ -1983,8 +1990,8 @@ footer {
     
     #whatsapp {
         position: absolute;
-        top: 240px;
-        right: 50px;
+        top: 594px;
+        left: 30px;
     }
     
     #whatsapp div{
@@ -1994,7 +2001,7 @@ footer {
     
     .OurApp {
         position: absolute;
-        top: 3000px;
+        top: 3300px;
         left: 0;
         width: 100%;
         height: 700px;
@@ -2009,8 +2016,8 @@ footer {
     .OurApp p {
         position: absolute;
         top: 376px;
-        left: 0;
-        width: 100%;
+        left: 30px;
+        width: calc(100% - 60px);
         text-align: center;
         font-family: 'Sora';
         font-size: 20px;
@@ -2022,8 +2029,8 @@ footer {
     #DataForm {
         position: absolute;
         top: 450px;
-        left: calc(50% - 240px);
-        width: 480px;
+        left: calc(50% - 165px);
+        width: 330px;
         height: 60px;
         font-size: 20px;
         font-family: 'Montserrat';
@@ -2032,13 +2039,13 @@ footer {
     #tel {
         font-family: 'Montserrat';
         background: transparent;
-        width: 225px;
+        width: 160px;
         height: 60px;
-        font-size: 20px;
+        font-size: 16px;
         border: 2px solid #FFFFFF;
         border-radius: 5px 0px 0px 5px;
         color: #fff;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     
     #tel::placeholder {
@@ -2046,46 +2053,51 @@ footer {
     }
     
     #submit {
+        position: absolute;
+        right: 0;
         font-family: 'Montserrat';
         background: #E28F1D;
-        width: 225px;
+        width: 160px;
         height: 65px;
-        font-size: 20px;
+        font-size: 16px;
         border: 2px solid #FFFFFF;
         border-radius: 0px 5px 5px 0px;
-        padding: 10px;
+        padding: 5px;
         right: 0;
     }
     
     footer {
         position: absolute;
-        top: 3700px;
+        top: 4000px;
         left: 0;
         width: 100%;
         height: 100px;
         background: #232323;
         color: #fff;
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Montserrat';
     }
     
     #crib {
         position: absolute;
-        left: 50px;
-        top: 38px;
+        left: 30px;
+        top: 15px;
     }
     
     #backtotop {
         position: absolute;
-        left: calc(50% - 44.5px);
-        top: 38px;
+        right: 30px;
+        top: 50px;
         color: #fff;
+        width: max-content;
+        left: unset;
     }
     
     #visit {
         position: absolute;
-        right: 50px;
-        top: 38px;
+        left: 30px;
+        top: 50px;
+        width: max-content;
     }
 
 }
