@@ -78,6 +78,7 @@ h2 {
     width: 90px;
     font-family: 'Montserrat';
     z-index: 3;
+    cursor: pointer;
 }
 
 #menu {
@@ -104,6 +105,7 @@ h2 {
     display: none;
 }
 #search {
+    cursor: pointer;
     position: absolute;
     top: 30px;
     right: 188px;
@@ -321,6 +323,7 @@ p a {
     font-family: 'Montserrat';
     font-size: 20px;
     color: #E28F1D;
+    cursor: pointer;
 }
 
 .Button img {
@@ -603,6 +606,7 @@ footer {
     position: absolute;
     right: 50px;
     top: 38px;
+    cursor: pointer;
 }
 
 
