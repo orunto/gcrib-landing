@@ -129,7 +129,7 @@ function Header (){
                    <li> <a href="#">For Companies</a> </li>
                 </ul>
 
-                <a href="blog.gentlemenscrib.com" id="dropbutton"><Button>Visit Crib</Button></a>
+                <a href="https://blog.gentlemenscrib.com" id="dropbutton"><Button>Visit Crib</Button></a>
             </div>
         </nav>
     );
@@ -251,7 +251,7 @@ function Footer (){
         <footer>
             <span id="crib"><img src="/images/copyright.svg"></img> Gentlemen's Crib</span>
             <a href="#menu"><span id="backtotop">Back to Top</span></a>
-            <a href="blog.gentlemenscrib.com"><span id="visit">Visit Crib</span></a>
+            <a href="https://blog.gentlemenscrib.com"><span id="visit">Visit Crib</span></a>
         </footer>
     );
 }
