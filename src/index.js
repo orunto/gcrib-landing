@@ -107,8 +107,8 @@ function HidePartners () {
 function Header (){
     return(
         <nav id="navbar">
-            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo.png" id="logo"></img>
-            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Icon.png" id="logo2"></img>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo2.png" id="logo"></img>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Icon2.png" id="logo2"></img>
             <span onClick={Drop} className="menu" id="menu">Menu<img src="/images/Menu.svg"></img></span>
             <span onClick={Retract} className="menu" id="menu2">Menu<img src="/images/cancel.svg"></img></span>
             <span id="search">Search<img src="/images/search.svg"></img></span>
